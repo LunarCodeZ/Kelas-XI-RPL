@@ -1,0 +1,15 @@
+C:\Erik's Workspace\coding\learn\c#\winforms\EntityFramework\EntityFramework\bin\Debug\EntityFramework.exe.config
+C:\Erik's Workspace\coding\learn\c#\winforms\EntityFramework\EntityFramework\bin\Debug\EntityFramework.exe
+C:\Erik's Workspace\coding\learn\c#\winforms\EntityFramework\EntityFramework\bin\Debug\EntityFramework.pdb
+C:\Erik's Workspace\coding\learn\c#\winforms\EntityFramework\EntityFramework\bin\Debug\EntityFramework.dll
+C:\Erik's Workspace\coding\learn\c#\winforms\EntityFramework\EntityFramework\bin\Debug\EntityFramework.SqlServer.dll
+C:\Erik's Workspace\coding\learn\c#\winforms\EntityFramework\EntityFramework\bin\Debug\EntityFramework.xml
+C:\Erik's Workspace\coding\learn\c#\winforms\EntityFramework\EntityFramework\bin\Debug\EntityFramework.SqlServer.xml
+C:\Erik's Workspace\coding\learn\c#\winforms\EntityFramework\EntityFramework\obj\Debug\EntityFramework.csproj.AssemblyReference.cache
+C:\Erik's Workspace\coding\learn\c#\winforms\EntityFramework\EntityFramework\obj\Debug\EntityFramework.Form1.resources
+C:\Erik's Workspace\coding\learn\c#\winforms\EntityFramework\EntityFramework\obj\Debug\EntityFramework.Properties.Resources.resources
+C:\Erik's Workspace\coding\learn\c#\winforms\EntityFramework\EntityFramework\obj\Debug\EntityFramework.csproj.GenerateResource.cache
+C:\Erik's Workspace\coding\learn\c#\winforms\EntityFramework\EntityFramework\obj\Debug\EntityFramework.csproj.CoreCompileInputs.cache
+C:\Erik's Workspace\coding\learn\c#\winforms\EntityFramework\EntityFramework\obj\Debug\EntityFr.4B064B60.Up2Date
+C:\Erik's Workspace\coding\learn\c#\winforms\EntityFramework\EntityFramework\obj\Debug\EntityFramework.exe
+C:\Erik's Workspace\coding\learn\c#\winforms\EntityFramework\EntityFramework\obj\Debug\EntityFramework.pdb
