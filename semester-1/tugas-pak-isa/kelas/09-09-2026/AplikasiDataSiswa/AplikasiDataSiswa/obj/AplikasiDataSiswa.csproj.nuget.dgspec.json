@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Erika\\Documents\\Erik\\Code\\GitHub\\github-2\\kelas-xi-rpl\\semester-1\\tugas-pak-isa\\kelas\\AplikasiDataSiswa\\AplikasiDataSiswa\\AplikasiDataSiswa.csproj": {}
+    "C:\\Users\\Erika\\Documents\\Erik\\Code\\GitHub\\github-2\\kelas-xi-rpl\\semester-1\\tugas-pak-isa\\kelas\\09-09-2026\\AplikasiDataSiswa\\AplikasiDataSiswa\\AplikasiDataSiswa.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Erika\\Documents\\Erik\\Code\\GitHub\\github-2\\kelas-xi-rpl\\semester-1\\tugas-pak-isa\\kelas\\AplikasiDataSiswa\\AplikasiDataSiswa\\AplikasiDataSiswa.csproj": {
+    "C:\\Users\\Erika\\Documents\\Erik\\Code\\GitHub\\github-2\\kelas-xi-rpl\\semester-1\\tugas-pak-isa\\kelas\\09-09-2026\\AplikasiDataSiswa\\AplikasiDataSiswa\\AplikasiDataSiswa.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Erika\\Documents\\Erik\\Code\\GitHub\\github-2\\kelas-xi-rpl\\semester-1\\tugas-pak-isa\\kelas\\AplikasiDataSiswa\\AplikasiDataSiswa\\AplikasiDataSiswa.csproj",
+        "projectUniqueName": "C:\\Users\\Erika\\Documents\\Erik\\Code\\GitHub\\github-2\\kelas-xi-rpl\\semester-1\\tugas-pak-isa\\kelas\\09-09-2026\\AplikasiDataSiswa\\AplikasiDataSiswa\\AplikasiDataSiswa.csproj",
         "projectName": "AplikasiDataSiswa",
-        "projectPath": "C:\\Users\\Erika\\Documents\\Erik\\Code\\GitHub\\github-2\\kelas-xi-rpl\\semester-1\\tugas-pak-isa\\kelas\\AplikasiDataSiswa\\AplikasiDataSiswa\\AplikasiDataSiswa.csproj",
+        "projectPath": "C:\\Users\\Erika\\Documents\\Erik\\Code\\GitHub\\github-2\\kelas-xi-rpl\\semester-1\\tugas-pak-isa\\kelas\\09-09-2026\\AplikasiDataSiswa\\AplikasiDataSiswa\\AplikasiDataSiswa.csproj",
         "packagesPath": "C:\\Users\\Erika\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Erika\\Documents\\Erik\\Code\\GitHub\\github-2\\kelas-xi-rpl\\semester-1\\tugas-pak-isa\\kelas\\AplikasiDataSiswa\\AplikasiDataSiswa\\obj\\",
+        "outputPath": "C:\\Users\\Erika\\Documents\\Erik\\Code\\GitHub\\github-2\\kelas-xi-rpl\\semester-1\\tugas-pak-isa\\kelas\\09-09-2026\\AplikasiDataSiswa\\AplikasiDataSiswa\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

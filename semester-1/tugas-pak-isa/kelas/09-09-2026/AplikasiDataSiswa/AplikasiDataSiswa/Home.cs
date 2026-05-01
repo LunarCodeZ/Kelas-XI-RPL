@@ -10,16 +10,18 @@ namespace AplikasiDataSiswa
 
             while (true)
             {
-                mulai(opsi);
+                mulai();
             }
         }
 
-        public static void mulai(int opsi)
+        public static void mulai()
         {
             Console.WriteLine("---------------------------");
             Console.WriteLine("|   Aplikasi Data Siswa   |");
             Console.WriteLine("|   oleh: LunarCodeZ      |");
             Console.WriteLine("---------------------------");
+
+            int opsi;
             string[] daftarAksi = { "Identitas", "Absensi", "Mata Pelajaran", "Nilai" };
 
             Console.WriteLine("\n>> Daftar Aksi <<");
@@ -37,7 +39,7 @@ namespace AplikasiDataSiswa
                 switch (opsi)
                 {
                     case 1:
-                        identitas(opsi);
+                        identitas();
                         break;
 
                     case 2:
@@ -60,16 +62,17 @@ namespace AplikasiDataSiswa
             {
                 Console.WriteLine("\nAksi tidak valid!");
                 Console.WriteLine("Silahkan coba lagi...");
-                mulai(opsi);
+                mulai();
             }
         }
 
-        public static void identitas(int opsi)
+        public static void identitas()
         {
             Console.WriteLine("----------------------");
             Console.WriteLine("|   Data Identitas   |");
             Console.WriteLine("----------------------");
 
+            int opsi;
             string[] daftarAksi = { "Kembali", "Siswa", "Wali", "Sekolah" };
             Console.WriteLine("\n>> Daftar Aksi <<");
             for (int i = 0; i < daftarAksi.Length; i++)
@@ -86,12 +89,12 @@ namespace AplikasiDataSiswa
                 switch (opsi)
                 {
                     case 0:
-                        mulai(opsi);
+                        mulai();
                         break;
 
                     case 1:
                         Identitas aksiSiswa = new Identitas();
-                        aksiSiswa.siswa(opsi);
+                        aksiSiswa.siswa();
                         break;
 
                     case 2:
@@ -108,7 +111,7 @@ namespace AplikasiDataSiswa
             {
                 Console.WriteLine("\nAksi tidak valid!");
                 Console.WriteLine("Silahkan coba lagi...");
-                identitas(opsi);
+                identitas();
             }
         }
 

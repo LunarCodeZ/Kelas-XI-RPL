@@ -4,42 +4,21 @@ namespace AplikasiDataSiswa
 {
     class Identitas
     {
-        // data siswa
-        string nisnTemplate = "000000000"; // 9 digit
-        int jumlahSiswa = 0;
-        List<string> daftarNisnSiswa;
-        List<string> daftarNamaLengkapSiswa;
-        List<string> daftarNamaPanggilanSiswa;
-        List<char> daftarJenisKelaminSiswa;
-        List<int> daftarUmurSiswa;
-        List<string> daftarAlamatSiswa;
-        List<string> daftarSekolahSiswa;
-
-        int namaLengkapSiswaColumn = 12;
-        int alamatSiswaColumn = 6;
-        int namaSekolahSiswaColumn = 12;
-
-        // data wali
-        int jumlahWali = 0;
-        List<string> daftarNamaWali;
-        List<int> daftarUmurWali;
-        List<string> daftarAlamatWali;
-        List<string> daftarTeleponWali;
-
-        // data sekolah
-        int jumlahSekolah = 0;
-        List<string> daftarNamaSekolah;
-        List<string> daftarAlamatSekolah;
-
-        public void siswa(int opsi)
+        public void siswa()
         {
             Console.WriteLine("------------------------------");
             Console.WriteLine("|   Data Identitas - Siswa   |");
             Console.WriteLine("------------------------------");
-            string[] daftarAksi = { "Kembali", "Tambah Siswa Baru", "Lihat Data Siswa" };
+
+            int opsi;
+            List<string> daftarAksi = [ "Kembali", "Tambah Siswa Baru", "Lihat Data Siswa", "Impor Data" ];
+            if (DataStorage.jumlahSiswa > 0)
+            {
+                daftarAksi.Add("Ekspor Data");
+            }
 
             Console.WriteLine("\n>> Daftar Aksi <<");
-            for (int i = 0; i < daftarAksi.Length; i++)
+            for (int i = 0; i < daftarAksi.Count; i++)
             {
                 Console.WriteLine($"[{i}] {daftarAksi[i]}");
             }
@@ -93,32 +72,21 @@ namespace AplikasiDataSiswa
                                 alamat = Console.ReadLine();
                                 Console.Write("Nama Sekolah: ");
                                 namaSekolah = Console.ReadLine();
+                                DataStorage.namaSekolahSiswaColumn = Math.Max(DataStorage.namaSekolahSiswaColumn, namaSekolah.Length);
 
-                                namaSekolahSiswaColumn = Math.Max(namaSekolahSiswaColumn, namaSekolah.Length);
-                                if (jumlahSiswa == 0)
-                                {
-                                    daftarNisnSiswa = new List<string>();
-                                    daftarNamaLengkapSiswa = new List<string>();
-                                    daftarNamaPanggilanSiswa = new List<string>();
-                                    daftarJenisKelaminSiswa = new List<char>();
-                                    daftarUmurSiswa = new List<int>();
-                                    daftarAlamatSiswa = new List<string>();
-                                    daftarSekolahSiswa = new List<string>();
-                                }
-
-                                jumlahSiswa++;
-                                nisn = nisnTemplate.Substring(0, (nisnTemplate.Length - Convert.ToInt32(Math.Floor(Math.Log(jumlahSiswa))))) + jumlahSiswa;
-                                daftarNisnSiswa.Add(nisn);
-                                daftarNamaLengkapSiswa.Add(namaLengkap);
-                                daftarNamaPanggilanSiswa.Add(namaPanggilan);
-                                daftarJenisKelaminSiswa.Add(jenisKelamin[0]);
-                                daftarUmurSiswa.Add(umur);
-                                daftarAlamatSiswa.Add(alamat);
-                                daftarSekolahSiswa.Add(namaSekolah);
+                                DataStorage.jumlahSiswa++;
+                                nisn = DataStorage.nisnTemplate.Substring(0, (DataStorage.nisnTemplate.Length - Convert.ToInt32(Math.Floor(Math.Log(DataStorage.jumlahSiswa))))) + DataStorage.jumlahSiswa;
+                                DataStorage.daftarNisnSiswa.Add(nisn);
+                                DataStorage.daftarNamaLengkapSiswa.Add(namaLengkap);
+                                DataStorage.daftarNamaPanggilanSiswa.Add(namaPanggilan);
+                                DataStorage.daftarJenisKelaminSiswa.Add(jenisKelamin[0]);
+                                DataStorage.daftarUmurSiswa.Add(umur);
+                                DataStorage.daftarAlamatSiswa.Add(alamat);
+                                DataStorage.daftarSekolahSiswa.Add(namaSekolah);
                                 Console.Clear();
                                 Console.WriteLine("Data siswa berhasil ditambahkan!\n");
                                 isLoop = false;
-                                siswa(opsi);
+                                siswa();
                             }
                             else
                             {
@@ -132,24 +100,24 @@ namespace AplikasiDataSiswa
 
                     // lihat data siswa
                     default:
-                        if (jumlahSiswa > 0)
+                        if (DataStorage.jumlahSiswa > 0)
                         {
                             Console.WriteLine("\n>> Daftar Data Siswa <<\n");
                             Console.Write("-------------------------------------------------------------------------------------------------------------------------------------------");
-                            for (int i = 0; i <= namaSekolahSiswaColumn - 12; i++)
+                            for (int i = 0; i < DataStorage.namaSekolahSiswaColumn - 12; i++)
                             {
                                 Console.Write("-");
                             }
                             Console.Write("\n");
                             Console.WriteLine("No.   | NISN       | Nama Lengkap                             | Nama Panggilan | Jenis Kelamin | Umur | Alamat               | Nama Sekolah");
                             Console.Write("-------------------------------------------------------------------------------------------------------------------------------------------");
-                            for (int i = 0; i <= namaSekolahSiswaColumn - 12; i++)
+                            for (int i = 0; i < DataStorage.namaSekolahSiswaColumn - 12; i++)
                             {
                                 Console.Write("-");
                             }
                             Console.Write("\n");
 
-                            for (int i = 0; i < jumlahSiswa; i++)
+                            for (int i = 0; i < DataStorage.jumlahSiswa; i++)
                             {
                                 // no
                                 if (i >= 0 && i < 9)
@@ -162,63 +130,63 @@ namespace AplikasiDataSiswa
                                 }
 
                                 // nisn
-                                Console.Write($"{daftarNisnSiswa[i]} | ");
+                                Console.Write($"{DataStorage.daftarNisnSiswa[i]} | ");
 
                                 // nama lengkap
-                                Console.Write($"{daftarNamaLengkapSiswa[i]} ");
-                                for (int j = 1; j <= 39 - daftarNamaLengkapSiswa[i].Length; j++)
+                                Console.Write($"{DataStorage.daftarNamaLengkapSiswa[i]} ");
+                                for (int j = 1; j <= 39 - DataStorage.daftarNamaLengkapSiswa[i].Length; j++)
                                 {
                                     Console.Write(" ");
                                 }
                                 Console.Write(" | ");
 
                                 // nama panggilan
-                                Console.Write($"{daftarNamaPanggilanSiswa[i]} ");
-                                for (int j = 1; j <= 13 - daftarNamaPanggilanSiswa[i].Length; j++)
+                                Console.Write($"{DataStorage.daftarNamaPanggilanSiswa[i]} ");
+                                for (int j = 1; j <= 13 - DataStorage.daftarNamaPanggilanSiswa[i].Length; j++)
                                 {
                                     Console.Write(" ");
                                 }
                                 Console.Write(" | ");
 
                                 // jenis kelamin
-                                Console.Write($"{daftarJenisKelaminSiswa[i]}             | ");
+                                Console.Write($"{DataStorage.daftarJenisKelaminSiswa[i]}             | ");
 
                                 // umur
-                                if (daftarUmurSiswa[i] >= 10)
+                                if (DataStorage.daftarUmurSiswa[i] >= 10)
                                 {
-                                    Console.Write($"{daftarUmurSiswa[i]}   | ");
+                                    Console.Write($"{DataStorage.daftarUmurSiswa[i]}   | ");
                                 }
                                 else
                                 {
-                                    Console.Write($"{daftarUmurSiswa[i]}    | ");
+                                    Console.Write($"{DataStorage.daftarUmurSiswa[i]}    | ");
                                 }
 
                                 // alamat
-                                Console.Write($"{daftarAlamatSiswa[i]} ");
-                                for (int j = 1; j <= 19 - daftarAlamatSiswa[i].Length; j++)
+                                Console.Write($"{DataStorage.daftarAlamatSiswa[i]} ");
+                                for (int j = 1; j <= 19 - DataStorage.daftarAlamatSiswa[i].Length; j++)
                                 {
                                     Console.Write(" ");
                                 }
                                 Console.Write(" | ");
 
                                 // nama sekolah
-                                Console.Write($"{daftarSekolahSiswa[i]}\n");
+                                Console.Write($"{DataStorage.daftarSekolahSiswa[i]}\n");
                             }
 
                             Console.Write("-------------------------------------------------------------------------------------------------------------------------------------------");
-                            for (int i = 0; i <= namaSekolahSiswaColumn - 12; i++)
+                            for (int i = 0; i < DataStorage.namaSekolahSiswaColumn - 12; i++)
                             {
                                 Console.Write("-");
                             }
                             Console.WriteLine("\n");
 
-                            siswa(opsi);
+                            siswa();
                         }
                         else
                         {
                             Console.WriteLine("\nTidak ada data siswa satupun!");
-                            Console.WriteLine("Mohon tambahkan siswa terlebih dahulu...");
-                            siswa(opsi);
+                            Console.WriteLine("Mohon tambahkan siswa terlebih dahulu...\n");
+                            siswa();
                         }
                         break;
                 }
@@ -227,7 +195,7 @@ namespace AplikasiDataSiswa
             {
                 Console.WriteLine("\nAksi tidak valid!");
                 Console.WriteLine("Silahkan coba lagi...");
-                siswa(opsi);
+                siswa();
             }
         }
 
