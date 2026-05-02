@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AplikasiDataSiswa")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f5950f9912ccdd9fd7eb7b06c664aa2e4f0a10e4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ecee1666743ed871d1e385e22190d584db3d1b5b")]
 [assembly: System.Reflection.AssemblyProductAttribute("AplikasiDataSiswa")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AplikasiDataSiswa")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

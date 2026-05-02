@@ -6,6 +6,7 @@ namespace AplikasiDataSiswa
     {
         public void siswa()
         {
+            Console.ForegroundColor = ConsoleColor.Cyan;
             Console.WriteLine("------------------------------");
             Console.WriteLine("|   Data Identitas - Siswa   |");
             Console.WriteLine("------------------------------");
@@ -18,11 +19,14 @@ namespace AplikasiDataSiswa
             }
 
             Console.WriteLine("\n>> Daftar Aksi <<");
+            Console.ForegroundColor = ConsoleColor.Gray;
             for (int i = 0; i < daftarAksi.Count; i++)
             {
                 Console.WriteLine($"[{i}] {daftarAksi[i]}");
             }
+            Console.ForegroundColor = ConsoleColor.Cyan;
             Console.Write("Pilih aksi: ");
+            Console.ForegroundColor = ConsoleColor.Gray;
             opsi = Convert.ToInt32(Console.ReadLine());
 
             if (opsi >= 0 && opsi <= 2)
@@ -32,7 +36,7 @@ namespace AplikasiDataSiswa
                     // kembali ke home
                     case 0:
                         Console.Clear();
-                        Home.identitas(opsi);
+                        Home.identitas();
                         break;
 
                     // tambah siswa baru
@@ -48,29 +52,43 @@ namespace AplikasiDataSiswa
                         bool isLoop = true;
                         while (isLoop)
                         {
+                            Console.ForegroundColor = ConsoleColor.Cyan;
                             Console.WriteLine("\n>> Tambah Siswa Baru <<");
 
+                            Console.ForegroundColor = ConsoleColor.Gray;
                             Console.Write("Nama lengkap: ");
+                            Console.ForegroundColor = ConsoleColor.Cyan;
                             namaLengkap = Console.ReadLine();
+                            Console.ForegroundColor = ConsoleColor.Gray;
                             Console.Write("Nama panggilan: ");
+                            Console.ForegroundColor = ConsoleColor.Cyan;
                             namaPanggilan = Console.ReadLine();
+                            Console.ForegroundColor = ConsoleColor.Gray;
                             Console.Write("Jenis kelamin (l/p): ");
+                            Console.ForegroundColor = ConsoleColor.Cyan;
                             jenisKelamin = Console.ReadLine().ToUpper();
 
                             if (jenisKelamin.Length > 1)
                             {
                                 Console.Clear();
+                                Console.ForegroundColor = ConsoleColor.Red;
                                 Console.WriteLine("\nJenis kelamin tidak valid,");
                                 Console.WriteLine("harap ketikkan 'l' ataupun 'p'!");
                                 Console.WriteLine("Coba lagi...");
                             }
                             else if (jenisKelamin[0] == 'L' || jenisKelamin[0] == 'P')
                             {
+                                Console.ForegroundColor = ConsoleColor.Gray;
                                 Console.Write("Umur: ");
+                                Console.ForegroundColor = ConsoleColor.Cyan;
                                 umur = Convert.ToInt32(Console.ReadLine());
+                                Console.ForegroundColor = ConsoleColor.Gray;
                                 Console.Write("Alamat: ");
+                                Console.ForegroundColor = ConsoleColor.Cyan;
                                 alamat = Console.ReadLine();
+                                Console.ForegroundColor = ConsoleColor.Gray;
                                 Console.Write("Nama Sekolah: ");
+                                Console.ForegroundColor = ConsoleColor.Cyan;
                                 namaSekolah = Console.ReadLine();
                                 DataStorage.namaSekolahSiswaColumn = Math.Max(DataStorage.namaSekolahSiswaColumn, namaSekolah.Length);
 
@@ -84,6 +102,7 @@ namespace AplikasiDataSiswa
                                 DataStorage.daftarAlamatSiswa.Add(alamat);
                                 DataStorage.daftarSekolahSiswa.Add(namaSekolah);
                                 Console.Clear();
+                                Console.ForegroundColor = ConsoleColor.Green;
                                 Console.WriteLine("Data siswa berhasil ditambahkan!\n");
                                 isLoop = false;
                                 siswa();
@@ -91,6 +110,7 @@ namespace AplikasiDataSiswa
                             else
                             {
                                 Console.Clear();
+                                Console.ForegroundColor = ConsoleColor.Red;
                                 Console.WriteLine("\nJenis kelamin tidak valid,");
                                 Console.WriteLine("harap ketikkan 'l' ataupun 'p'!");
                                 Console.WriteLine("Coba lagi...");
@@ -102,31 +122,26 @@ namespace AplikasiDataSiswa
                     default:
                         if (DataStorage.jumlahSiswa > 0)
                         {
+                            Console.ForegroundColor = ConsoleColor.Cyan;
                             Console.WriteLine("\n>> Daftar Data Siswa <<\n");
-                            Console.Write("-------------------------------------------------------------------------------------------------------------------------------------------");
-                            for (int i = 0; i < DataStorage.namaSekolahSiswaColumn - 12; i++)
-                            {
-                                Console.Write("-");
-                            }
-                            Console.Write("\n");
-                            Console.WriteLine("No.   | NISN       | Nama Lengkap                             | Nama Panggilan | Jenis Kelamin | Umur | Alamat               | Nama Sekolah");
-                            Console.Write("-------------------------------------------------------------------------------------------------------------------------------------------");
-                            for (int i = 0; i < DataStorage.namaSekolahSiswaColumn - 12; i++)
-                            {
-                                Console.Write("-");
-                            }
-                            Console.Write("\n");
+                            Console.ForegroundColor = ConsoleColor.Gray;
+                            Console.Write("+-------+------------+------------------------------------------+----------------+---------------+------+----------------------+--------------");
+                            Console.Write($"{new string('-', DataStorage.namaSekolahSiswaColumn - 12)}+\n");
+                            Console.Write("| No.   | NISN       | Nama Lengkap                             | Nama Panggilan | Jenis Kelamin | Umur | Alamat               | Nama Sekolah");
+                            Console.Write($"{new string(' ', DataStorage.namaSekolahSiswaColumn + 1 - 12)}|\n");
+                            Console.Write("+-------+------------+------------------------------------------+----------------+---------------+------+----------------------+--------------");
+                            Console.Write($"{new string('-', DataStorage.namaSekolahSiswaColumn - 12)}+\n");
 
                             for (int i = 0; i < DataStorage.jumlahSiswa; i++)
                             {
                                 // no
                                 if (i >= 0 && i < 9)
                                 {
-                                    Console.Write($"{i + 1}.    | ");
+                                    Console.Write($"| {i + 1}.    | ");
                                 }
                                 else
                                 {
-                                    Console.Write($"{i + 1}.   | ");
+                                    Console.Write($"| {i + 1}.   | ");
                                 }
 
                                 // nisn
@@ -170,20 +185,24 @@ namespace AplikasiDataSiswa
                                 Console.Write(" | ");
 
                                 // nama sekolah
-                                Console.Write($"{DataStorage.daftarSekolahSiswa[i]}\n");
+                                Console.Write($"{DataStorage.daftarSekolahSiswa[i]}");
+                                if (DataStorage.daftarSekolahSiswa[i].Length == DataStorage.namaSekolahSiswaColumn)
+                                {
+                                    Console.Write(" |\n");
+                                }
+                                else
+                                {
+                                    Console.Write($"{new string(' ', DataStorage.namaSekolahSiswaColumn - 12 - 1)}|\n");
+                                }
                             }
 
-                            Console.Write("-------------------------------------------------------------------------------------------------------------------------------------------");
-                            for (int i = 0; i < DataStorage.namaSekolahSiswaColumn - 12; i++)
-                            {
-                                Console.Write("-");
-                            }
-                            Console.WriteLine("\n");
-
+                            Console.Write("+-------+------------+------------------------------------------+----------------+---------------+------+----------------------+--------------");
+                            Console.Write($"{new string('-', DataStorage.namaSekolahSiswaColumn - 12)}+\n\n");
                             siswa();
                         }
                         else
                         {
+                            Console.ForegroundColor = ConsoleColor.Red;
                             Console.WriteLine("\nTidak ada data siswa satupun!");
                             Console.WriteLine("Mohon tambahkan siswa terlebih dahulu...\n");
                             siswa();
@@ -193,8 +212,9 @@ namespace AplikasiDataSiswa
             }
             else
             {
+                Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("\nAksi tidak valid!");
-                Console.WriteLine("Silahkan coba lagi...");
+                Console.WriteLine("Silahkan coba lagi...\n");
                 siswa();
             }
         }

@@ -16,6 +16,7 @@ namespace AplikasiDataSiswa
 
         public static void mulai()
         {
+            Console.ForegroundColor = ConsoleColor.Cyan;
             Console.WriteLine("---------------------------");
             Console.WriteLine("|   Aplikasi Data Siswa   |");
             Console.WriteLine("|   oleh: LunarCodeZ      |");
@@ -25,11 +26,14 @@ namespace AplikasiDataSiswa
             string[] daftarAksi = { "Identitas", "Absensi", "Mata Pelajaran", "Nilai" };
 
             Console.WriteLine("\n>> Daftar Aksi <<");
+            Console.ForegroundColor = ConsoleColor.Gray;
             for (int i = 0; i < daftarAksi.Length; i++)
             {
                 Console.WriteLine($"[{i + 1}] {daftarAksi[i]}");
             }
+            Console.ForegroundColor = ConsoleColor.Cyan;
             Console.Write("Pilih aksi: ");
+            Console.ForegroundColor = ConsoleColor.Gray;
             opsi = Convert.ToInt32(Console.ReadLine());
             
             if (opsi >= 1 && opsi <= 4)
@@ -60,14 +64,17 @@ namespace AplikasiDataSiswa
             }
             else
             {
+                Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("\nAksi tidak valid!");
-                Console.WriteLine("Silahkan coba lagi...");
+                Console.WriteLine("Silahkan coba lagi...\n");
+                Console.ForegroundColor = ConsoleColor.Gray;
                 mulai();
             }
         }
 
         public static void identitas()
         {
+            Console.ForegroundColor = ConsoleColor.Cyan;
             Console.WriteLine("----------------------");
             Console.WriteLine("|   Data Identitas   |");
             Console.WriteLine("----------------------");
@@ -75,11 +82,14 @@ namespace AplikasiDataSiswa
             int opsi;
             string[] daftarAksi = { "Kembali", "Siswa", "Wali", "Sekolah" };
             Console.WriteLine("\n>> Daftar Aksi <<");
+            Console.ForegroundColor = ConsoleColor.Gray;
             for (int i = 0; i < daftarAksi.Length; i++)
             {
                 Console.WriteLine($"[{i}] {daftarAksi[i]}");
             }
+            Console.ForegroundColor = ConsoleColor.Cyan;
             Console.Write("Pilih aksi: ");
+            Console.ForegroundColor = ConsoleColor.Gray;
             opsi = Convert.ToInt32(Console.ReadLine());
 
             if (opsi >= 0 && opsi <= 3)
@@ -109,14 +119,16 @@ namespace AplikasiDataSiswa
             }
             else
             {
+                Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("\nAksi tidak valid!");
-                Console.WriteLine("Silahkan coba lagi...");
+                Console.WriteLine("Silahkan coba lagi...\n");
                 identitas();
             }
         }
 
         public static void absensi()
         {
+            Console.ForegroundColor = ConsoleColor.Cyan;
             Console.WriteLine("--------------------");
             Console.WriteLine("|   Data Absensi   |");
             Console.WriteLine("--------------------");
@@ -124,6 +136,7 @@ namespace AplikasiDataSiswa
 
         public static void mataPelajaran()
         {
+            Console.ForegroundColor = ConsoleColor.Cyan;
             Console.WriteLine("-----------------------------");
             Console.WriteLine("|   Daftar Mata Pelajaran   |");
             Console.WriteLine("-----------------------------");
@@ -131,6 +144,7 @@ namespace AplikasiDataSiswa
 
         public static void nilai()
         {
+            Console.ForegroundColor = ConsoleColor.Cyan;
             Console.WriteLine("------------------");
             Console.WriteLine("|   Data Nilai   |");
             Console.WriteLine("------------------");
