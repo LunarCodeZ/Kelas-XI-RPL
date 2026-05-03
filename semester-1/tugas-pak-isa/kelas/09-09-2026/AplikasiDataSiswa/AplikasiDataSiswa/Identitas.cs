@@ -4,7 +4,7 @@ namespace AplikasiDataSiswa
 {
     class Identitas
     {
-        public void siswa()
+        public static void siswa()
         {
             Console.ForegroundColor = ConsoleColor.Cyan;
             Console.WriteLine("------------------------------");
@@ -12,7 +12,7 @@ namespace AplikasiDataSiswa
             Console.WriteLine("------------------------------");
 
             int opsi;
-            List<string> daftarAksi = [ "Kembali", "Tambah Siswa Baru", "Lihat Data Siswa", "Impor Data" ];
+            List<string> daftarAksi = ["Kembali", "Tambah Siswa Baru", "Lihat Data Siswa", "Impor Data"];
             if (DataStorage.jumlahSiswa > 0)
             {
                 daftarAksi.Add("Ekspor Data");
@@ -29,7 +29,7 @@ namespace AplikasiDataSiswa
             Console.ForegroundColor = ConsoleColor.Gray;
             opsi = Convert.ToInt32(Console.ReadLine());
 
-            if (opsi >= 0 && opsi <= 2)
+            if (opsi >= 0 && opsi <= 4)
             {
                 switch (opsi)
                 {
@@ -72,7 +72,7 @@ namespace AplikasiDataSiswa
                             {
                                 Console.Clear();
                                 Console.ForegroundColor = ConsoleColor.Red;
-                                Console.WriteLine("\nJenis kelamin tidak valid,");
+                                Console.WriteLine("Jenis kelamin tidak valid,");
                                 Console.WriteLine("harap ketikkan 'l' ataupun 'p'!");
                                 Console.WriteLine("Coba lagi...");
                             }
@@ -111,7 +111,7 @@ namespace AplikasiDataSiswa
                             {
                                 Console.Clear();
                                 Console.ForegroundColor = ConsoleColor.Red;
-                                Console.WriteLine("\nJenis kelamin tidak valid,");
+                                Console.WriteLine("Jenis kelamin tidak valid,");
                                 Console.WriteLine("harap ketikkan 'l' ataupun 'p'!");
                                 Console.WriteLine("Coba lagi...");
                             }
@@ -119,7 +119,7 @@ namespace AplikasiDataSiswa
                         break;
 
                     // lihat data siswa
-                    default:
+                    case 2:
                         if (DataStorage.jumlahSiswa > 0)
                         {
                             Console.ForegroundColor = ConsoleColor.Cyan;
@@ -208,6 +208,22 @@ namespace AplikasiDataSiswa
                             siswa();
                         }
                         break;
+
+                    // impor data
+                    case 3:
+                        break;
+                    
+                    // ekspor data
+                    default:
+                        if (DataStorage.jumlahSiswa > 0)
+                        {
+                            // allow
+                        }
+                        else
+                        {
+                            // error
+                        }
+                        break;
                 }
             }
             else
@@ -219,14 +235,303 @@ namespace AplikasiDataSiswa
             }
         }
 
-        public static void wali()
+        public static void wali(string mode = "")
         {
+            if (mode == "")
+            {
+                Console.ForegroundColor = ConsoleColor.Cyan;
+                Console.WriteLine("-----------------------------");
+                Console.WriteLine("|   Data Identitas - Wali   |");
+                Console.WriteLine("-----------------------------");
 
+                int opsi;
+                List<string> daftarAksi = ["Kembali", "Tambah Wali Baru", "Lihat Data Wali", "Impor Data"];
+                if (DataStorage.jumlahWali > 0)
+                {
+                    daftarAksi.Insert(3, "Ubah Data Wali");
+                    daftarAksi.Insert(4, "Hapus Data Wali");
+                    daftarAksi.Insert(5, "Reset Data Wali");
+                    daftarAksi.Add("Ekspor Data");
+                }
+
+                Console.WriteLine("\n>> Daftar Aksi <<");
+                Console.ForegroundColor = ConsoleColor.Gray;
+                for (int i = 0; i < daftarAksi.Count; i++)
+                {
+                    Console.WriteLine($"[{i}] {daftarAksi[i]}");
+                }
+                Console.ForegroundColor = ConsoleColor.Cyan;
+                Console.Write("Pilih aksi: ");
+                Console.ForegroundColor = ConsoleColor.Gray;
+                opsi = Convert.ToInt32(Console.ReadLine());
+
+                if (opsi >= 0 && opsi <= 7)
+                {
+                    switch (opsi)
+                    {
+                        // kembali ke home
+                        case 0:
+                            Console.Clear();
+                            Home.identitas();
+                            break;
+
+                        // tambah wali baru
+                        case 1:
+                            string nama;
+                            int umur;
+                            string alamat;
+                            string telepon;
+
+                            bool isLoop = true;
+                            while (isLoop)
+                            {
+                                Console.ForegroundColor = ConsoleColor.Cyan;
+                                Console.WriteLine("\n>> Tambah Wali Baru <<");
+
+                                Console.ForegroundColor = ConsoleColor.Gray;
+                                Console.Write("Nama wali: ");
+                                Console.ForegroundColor = ConsoleColor.Cyan;
+                                nama = Console.ReadLine();
+
+                                Console.ForegroundColor = ConsoleColor.Gray;
+                                Console.Write("Umur wali: ");
+                                Console.ForegroundColor = ConsoleColor.Cyan;
+                                umur = Convert.ToInt32(Console.ReadLine());
+
+                                Console.ForegroundColor = ConsoleColor.Gray;
+                                Console.Write("Telepon wali: ");
+                                Console.ForegroundColor = ConsoleColor.Cyan;
+                                telepon = Console.ReadLine();
+
+                                // validasi telepon
+                                if (telepon.Length >= 10 && telepon.Length <= 12)
+                                {
+                                    Console.ForegroundColor = ConsoleColor.Gray;
+                                    Console.Write("Alamat wali: ");
+                                    Console.ForegroundColor = ConsoleColor.Cyan;
+                                    alamat = Console.ReadLine();
+
+                                    DataStorage.namaWaliColumn = Math.Max(DataStorage.namaWaliColumn, nama.Length);
+                                    DataStorage.alamatWaliColumn = Math.Max(DataStorage.alamatWaliColumn, alamat.Length);
+
+                                    // simpan data
+                                    DataStorage.jumlahWali++;
+                                    DataStorage.daftarNamaWali.Add(nama);
+                                    DataStorage.daftarUmurWali.Add(umur);
+                                    DataStorage.daftarAlamatWali.Add(alamat);
+                                    DataStorage.daftarTeleponWali.Add(telepon);
+
+                                    Console.Clear();
+                                    Console.ForegroundColor = ConsoleColor.Green;
+                                    Console.WriteLine("Data wali berhasil ditambahkan!\n");
+                                    isLoop = false;
+                                    wali();
+                                }
+                                else
+                                {
+                                    Console.Clear();
+                                    Console.ForegroundColor = ConsoleColor.Red;
+                                    Console.WriteLine("No. telepon harus diantara 10 - 12 karakter!");
+                                    Console.WriteLine("Silahkan coba lagi...\n");
+                                }
+                            }
+                            break;
+
+                        // lihat data wali
+                        case 2:
+                            wali("read");
+                            break;
+
+                        // impor data / ubah data wali
+                        case 3:
+                            if (DataStorage.jumlahWali > 0)
+                            {
+                                // ubah data
+                            }
+                            else
+                            {
+                                // impor data
+                            }
+                            break;
+
+                        // hapus data wali
+                        case 4:
+                            if (DataStorage.jumlahWali > 0)
+                            {
+                                
+                            }
+                            else
+                            {
+                                wali("invalid");
+                            }
+                            break;
+
+                        // reset data wali
+                        case 5:
+                            if (DataStorage.jumlahWali > 0)
+                            {
+                                
+                            }
+                            else
+                            {
+                                wali("invalid");
+                            }
+                            break;
+
+                        // impor data wali
+                        case 6:
+                            if (DataStorage.jumlahWali > 0)
+                            {
+                                
+                            }
+                            else
+                            {
+                                wali("invalid");
+                            }
+                            break;
+
+                        // ekspor data
+                        default:
+                            if (DataStorage.jumlahWali > 0)
+                            {
+
+                            }
+                            else
+                            {
+                                wali("invalid");
+                            }
+                            break;
+                    }
+                }
+                else
+                {
+                    wali("invalid");
+                }
+            }
+            else if (mode == "read")
+            {
+                if (DataStorage.jumlahWali > 0)
+                {
+                    Console.ForegroundColor = ConsoleColor.Cyan;
+                    Console.WriteLine("\n>> Daftar Data Wali <<\n");
+                    Console.ForegroundColor = ConsoleColor.Gray;
+                    Console.Write("+-----+");
+                    Console.Write($"-----------{new string('-', DataStorage.namaWaliColumn - DataStorage.NAMA_WALI_COLUMN)}+------+--------------+-------------");
+                    Console.Write($"{new string('-', DataStorage.alamatWaliColumn - DataStorage.ALAMAT_WALI_COLUMN)}+\n");
+                    Console.Write("| No. | Nama Wali");
+                    Console.Write($"{new string(' ', DataStorage.namaWaliColumn - DataStorage.NAMA_WALI_COLUMN)} | ");
+                    Console.Write($"Umur | Telepon Wali | Alamat Wali");
+                    Console.Write($"{new string(' ', DataStorage.alamatWaliColumn - DataStorage.ALAMAT_WALI_COLUMN)} |\n");
+                    Console.Write("+-----+");
+                    Console.Write($"-----------{new string('-', DataStorage.namaWaliColumn - DataStorage.NAMA_WALI_COLUMN)}+------+--------------+-------------");
+                    Console.Write($"{new string('-', DataStorage.alamatWaliColumn - DataStorage.ALAMAT_WALI_COLUMN)}+\n");
+
+                    for (int i = 0; i < DataStorage.jumlahWali; i++)
+                    {
+                        // no
+                        if (i >= 0 && i < 9)
+                        {
+                            Console.Write($"| {i + 1}.  | ");
+                        }
+                        else
+                        {
+                            Console.Write($"| {i + 1}. | ");
+                        }
+
+                        // nama wali
+                        Console.Write($"{DataStorage.daftarNamaWali[i]}{new string(' ', DataStorage.namaWaliColumn - DataStorage.daftarNamaWali[i].Length)} | ");
+
+                        // umur wali
+                        Console.Write($"{DataStorage.daftarUmurWali[i]}{new string(' ', DataStorage.UMUR_WALI_COLUMN - DataStorage.daftarUmurWali[i].ToString().Length)} | ");
+
+                        // telepon wali
+                        Console.Write($"{DataStorage.daftarTeleponWali[i]}{new string(' ', DataStorage.TELEPON_WALI_COLUMN - DataStorage.daftarTeleponWali[i].Length)} | ");
+
+                        // alamat wali
+                        Console.Write($"{DataStorage.daftarAlamatWali[i]}{new string(' ', DataStorage.alamatWaliColumn - DataStorage.daftarAlamatWali[i].Length)} |\n");
+                    }
+
+                    Console.Write("+-----+");
+                    Console.Write($"-----------{new string('-', DataStorage.namaWaliColumn - DataStorage.NAMA_WALI_COLUMN)}+------+--------------+-------------");
+                    Console.Write($"{new string('-', DataStorage.alamatWaliColumn - DataStorage.ALAMAT_WALI_COLUMN)}+\n\n");
+                    wali();
+                }
+                else
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("\nTidak ada data wali satupun!");
+                    Console.WriteLine("Mohon tambahkan wali terlebih dahulu...\n");
+                    wali();
+                }
+            }
+            else if (mode == "invalid")
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("\nAksi tidak valid!");
+                Console.WriteLine("Silahkan coba lagi...\n");
+                wali();
+            }
         }
 
         public static void sekolah()
         {
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.WriteLine("--------------------------------");
+            Console.WriteLine("|   Data Identitas - Sekolah   |");
+            Console.WriteLine("-------------------------------");
 
+            int opsi;
+            List<string> daftarAksi = ["Kembali", "Tambah Sekolah Baru", "Lihat Data Sekolah", "Impor Data"];
+            if (DataStorage.jumlahSekolah > 0)
+            {
+                daftarAksi.Add("Ekspor Data");
+            }
+
+            Console.WriteLine("\n>> Daftar Aksi <<");
+            Console.ForegroundColor = ConsoleColor.Gray;
+            for (int i = 0; i < daftarAksi.Count; i++)
+            {
+                Console.WriteLine($"[{i}] {daftarAksi[i]}");
+            }
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.Write("Pilih aksi: ");
+            Console.ForegroundColor = ConsoleColor.Gray;
+            opsi = Convert.ToInt32(Console.ReadLine());
+
+            if (opsi >= 0 && opsi <= 4)
+            {
+                switch (opsi)
+                {
+                    // kembali ke home
+                    case 0:
+                        Console.Clear();
+                        Home.identitas();
+                        break;
+
+                    // tambah sekolah baru
+                    case 1:
+                        break;
+
+                    // lihat data sekolah
+                    case 2:
+                        break;
+
+                    // impor data
+                    case 3:
+                        break;
+
+                    // ekspor data
+                    default:
+                        break;
+                }
+            }
+            else
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("\nAksi tidak valid!");
+                Console.WriteLine("Silahkan coba lagi...\n");
+                sekolah();
+            }
         }
     }
 }

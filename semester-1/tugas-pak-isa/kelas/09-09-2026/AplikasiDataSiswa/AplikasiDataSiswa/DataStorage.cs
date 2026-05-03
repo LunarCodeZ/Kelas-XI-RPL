@@ -24,18 +24,33 @@ namespace AplikasiDataSiswa
         public static List<int> daftarUmurSiswa = new List<int>();
         public static List<string> daftarAlamatSiswa = new List<string>();
         public static List<string> daftarSekolahSiswa = new List<string>();
-        
+
 
         // data wali
-        int jumlahWali = 0;
-        List<string> daftarNamaWali;
-        List<int> daftarUmurWali;
-        List<string> daftarAlamatWali;
-        List<string> daftarTeleponWali;
+        public const int NAMA_WALI_COLUMN = 9;
+        public const int ALAMAT_WALI_COLUMN = 11;
+        public const int TELEPON_WALI_COLUMN = 12;
+        public const int UMUR_WALI_COLUMN = 4;
+        public static int namaWaliColumn = 9;
+        public static int alamatWaliColumn = 11;
+
+        public static int jumlahWali = 0;
+        public static List<string> daftarNamaWali = new List<string>();
+        public static List<int> daftarUmurWali = new List<int>();
+        public static List<string> daftarAlamatWali = new List<string>();
+        public static List<string> daftarTeleponWali = new List<string>();
+
 
         // data sekolah
-        int jumlahSekolah = 0;
-        List<string> daftarNamaSekolah;
-        List<string> daftarAlamatSekolah;
+        public const int NAMA_SEKOLAH_COLUMN = 0;
+        public const int ALAMAT_SEKOLAH_COLUMN = 0;
+        public static int namaSekolahColumn;
+        public static int alamatSekolahColumn;
+
+        public static int jumlahSekolah = 0;
+        public static List<string> daftarNamaSekolah = new List<string>();
+        public static List<string> daftarAlamatSekolah = new List<string>();
+        public static List<char> daftarAkreditasiSekolah = new List<char>();
+        public static List<float> daftarIndeksSekolah = new List<float>();
     }
 }

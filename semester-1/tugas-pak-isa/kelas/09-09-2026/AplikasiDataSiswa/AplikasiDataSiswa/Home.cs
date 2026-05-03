@@ -103,14 +103,15 @@ namespace AplikasiDataSiswa
                         break;
 
                     case 1:
-                        Identitas aksiSiswa = new Identitas();
-                        aksiSiswa.siswa();
+                        Identitas.siswa();
                         break;
 
                     case 2:
+                        Identitas.wali();
                         break;
 
                     case 3:
+                        Identitas.sekolah();
                         break;
 
                     default:
