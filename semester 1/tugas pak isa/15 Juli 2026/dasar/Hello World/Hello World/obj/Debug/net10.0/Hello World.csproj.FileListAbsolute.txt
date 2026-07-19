@@ -1,0 +1,15 @@
+C:\Users\Erika\Documents\Erik\Code\GitHub\Github 2\Kelas-XI-RPL\drive\dasar\Hello World\Hello World\bin\Debug\net10.0\Hello World.exe
+C:\Users\Erika\Documents\Erik\Code\GitHub\Github 2\Kelas-XI-RPL\drive\dasar\Hello World\Hello World\bin\Debug\net10.0\Hello World.deps.json
+C:\Users\Erika\Documents\Erik\Code\GitHub\Github 2\Kelas-XI-RPL\drive\dasar\Hello World\Hello World\bin\Debug\net10.0\Hello World.runtimeconfig.json
+C:\Users\Erika\Documents\Erik\Code\GitHub\Github 2\Kelas-XI-RPL\drive\dasar\Hello World\Hello World\bin\Debug\net10.0\Hello World.dll
+C:\Users\Erika\Documents\Erik\Code\GitHub\Github 2\Kelas-XI-RPL\drive\dasar\Hello World\Hello World\bin\Debug\net10.0\Hello World.pdb
+C:\Users\Erika\Documents\Erik\Code\GitHub\Github 2\Kelas-XI-RPL\drive\dasar\Hello World\Hello World\obj\Debug\net10.0\Hello World.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Erika\Documents\Erik\Code\GitHub\Github 2\Kelas-XI-RPL\drive\dasar\Hello World\Hello World\obj\Debug\net10.0\Hello World.AssemblyInfoInputs.cache
+C:\Users\Erika\Documents\Erik\Code\GitHub\Github 2\Kelas-XI-RPL\drive\dasar\Hello World\Hello World\obj\Debug\net10.0\Hello World.AssemblyInfo.cs
+C:\Users\Erika\Documents\Erik\Code\GitHub\Github 2\Kelas-XI-RPL\drive\dasar\Hello World\Hello World\obj\Debug\net10.0\Hello World.csproj.CoreCompileInputs.cache
+C:\Users\Erika\Documents\Erik\Code\GitHub\Github 2\Kelas-XI-RPL\drive\dasar\Hello World\Hello World\obj\Debug\net10.0\Hello World.sourcelink.json
+C:\Users\Erika\Documents\Erik\Code\GitHub\Github 2\Kelas-XI-RPL\drive\dasar\Hello World\Hello World\obj\Debug\net10.0\Hello World.dll
+C:\Users\Erika\Documents\Erik\Code\GitHub\Github 2\Kelas-XI-RPL\drive\dasar\Hello World\Hello World\obj\Debug\net10.0\refint\Hello World.dll
+C:\Users\Erika\Documents\Erik\Code\GitHub\Github 2\Kelas-XI-RPL\drive\dasar\Hello World\Hello World\obj\Debug\net10.0\Hello World.pdb
+C:\Users\Erika\Documents\Erik\Code\GitHub\Github 2\Kelas-XI-RPL\drive\dasar\Hello World\Hello World\obj\Debug\net10.0\Hello World.genruntimeconfig.cache
+C:\Users\Erika\Documents\Erik\Code\GitHub\Github 2\Kelas-XI-RPL\drive\dasar\Hello World\Hello World\obj\Debug\net10.0\ref\Hello World.dll

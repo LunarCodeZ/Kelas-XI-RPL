@@ -1,0 +1,15 @@
+C:\Users\Erika\Documents\Erik\Code\GitHub\Github 2\Kelas-XI-RPL\drive\dasar\ArrayDanKoleksiDasar\bin\Debug\net10.0\ArrayDanKoleksiDasar.exe
+C:\Users\Erika\Documents\Erik\Code\GitHub\Github 2\Kelas-XI-RPL\drive\dasar\ArrayDanKoleksiDasar\bin\Debug\net10.0\ArrayDanKoleksiDasar.deps.json
+C:\Users\Erika\Documents\Erik\Code\GitHub\Github 2\Kelas-XI-RPL\drive\dasar\ArrayDanKoleksiDasar\bin\Debug\net10.0\ArrayDanKoleksiDasar.runtimeconfig.json
+C:\Users\Erika\Documents\Erik\Code\GitHub\Github 2\Kelas-XI-RPL\drive\dasar\ArrayDanKoleksiDasar\bin\Debug\net10.0\ArrayDanKoleksiDasar.dll
+C:\Users\Erika\Documents\Erik\Code\GitHub\Github 2\Kelas-XI-RPL\drive\dasar\ArrayDanKoleksiDasar\bin\Debug\net10.0\ArrayDanKoleksiDasar.pdb
+C:\Users\Erika\Documents\Erik\Code\GitHub\Github 2\Kelas-XI-RPL\drive\dasar\ArrayDanKoleksiDasar\obj\Debug\net10.0\ArrayDanKoleksiDasar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Erika\Documents\Erik\Code\GitHub\Github 2\Kelas-XI-RPL\drive\dasar\ArrayDanKoleksiDasar\obj\Debug\net10.0\ArrayDanKoleksiDasar.AssemblyInfoInputs.cache
+C:\Users\Erika\Documents\Erik\Code\GitHub\Github 2\Kelas-XI-RPL\drive\dasar\ArrayDanKoleksiDasar\obj\Debug\net10.0\ArrayDanKoleksiDasar.AssemblyInfo.cs
+C:\Users\Erika\Documents\Erik\Code\GitHub\Github 2\Kelas-XI-RPL\drive\dasar\ArrayDanKoleksiDasar\obj\Debug\net10.0\ArrayDanKoleksiDasar.csproj.CoreCompileInputs.cache
+C:\Users\Erika\Documents\Erik\Code\GitHub\Github 2\Kelas-XI-RPL\drive\dasar\ArrayDanKoleksiDasar\obj\Debug\net10.0\ArrayDanKoleksiDasar.sourcelink.json
+C:\Users\Erika\Documents\Erik\Code\GitHub\Github 2\Kelas-XI-RPL\drive\dasar\ArrayDanKoleksiDasar\obj\Debug\net10.0\ArrayDanKoleksiDasar.dll
+C:\Users\Erika\Documents\Erik\Code\GitHub\Github 2\Kelas-XI-RPL\drive\dasar\ArrayDanKoleksiDasar\obj\Debug\net10.0\refint\ArrayDanKoleksiDasar.dll
+C:\Users\Erika\Documents\Erik\Code\GitHub\Github 2\Kelas-XI-RPL\drive\dasar\ArrayDanKoleksiDasar\obj\Debug\net10.0\ArrayDanKoleksiDasar.pdb
+C:\Users\Erika\Documents\Erik\Code\GitHub\Github 2\Kelas-XI-RPL\drive\dasar\ArrayDanKoleksiDasar\obj\Debug\net10.0\ArrayDanKoleksiDasar.genruntimeconfig.cache
+C:\Users\Erika\Documents\Erik\Code\GitHub\Github 2\Kelas-XI-RPL\drive\dasar\ArrayDanKoleksiDasar\obj\Debug\net10.0\ref\ArrayDanKoleksiDasar.dll

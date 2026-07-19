@@ -1,0 +1,15 @@
+C:\Users\Erika\Documents\Erik\Code\GitHub\Github 2\Kelas-XI-RPL\drive\dasar\Variabel\bin\Debug\net10.0\Variabel.exe
+C:\Users\Erika\Documents\Erik\Code\GitHub\Github 2\Kelas-XI-RPL\drive\dasar\Variabel\bin\Debug\net10.0\Variabel.deps.json
+C:\Users\Erika\Documents\Erik\Code\GitHub\Github 2\Kelas-XI-RPL\drive\dasar\Variabel\bin\Debug\net10.0\Variabel.runtimeconfig.json
+C:\Users\Erika\Documents\Erik\Code\GitHub\Github 2\Kelas-XI-RPL\drive\dasar\Variabel\bin\Debug\net10.0\Variabel.dll
+C:\Users\Erika\Documents\Erik\Code\GitHub\Github 2\Kelas-XI-RPL\drive\dasar\Variabel\bin\Debug\net10.0\Variabel.pdb
+C:\Users\Erika\Documents\Erik\Code\GitHub\Github 2\Kelas-XI-RPL\drive\dasar\Variabel\obj\Debug\net10.0\Variabel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Erika\Documents\Erik\Code\GitHub\Github 2\Kelas-XI-RPL\drive\dasar\Variabel\obj\Debug\net10.0\Variabel.AssemblyInfoInputs.cache
+C:\Users\Erika\Documents\Erik\Code\GitHub\Github 2\Kelas-XI-RPL\drive\dasar\Variabel\obj\Debug\net10.0\Variabel.AssemblyInfo.cs
+C:\Users\Erika\Documents\Erik\Code\GitHub\Github 2\Kelas-XI-RPL\drive\dasar\Variabel\obj\Debug\net10.0\Variabel.csproj.CoreCompileInputs.cache
+C:\Users\Erika\Documents\Erik\Code\GitHub\Github 2\Kelas-XI-RPL\drive\dasar\Variabel\obj\Debug\net10.0\Variabel.sourcelink.json
+C:\Users\Erika\Documents\Erik\Code\GitHub\Github 2\Kelas-XI-RPL\drive\dasar\Variabel\obj\Debug\net10.0\Variabel.dll
+C:\Users\Erika\Documents\Erik\Code\GitHub\Github 2\Kelas-XI-RPL\drive\dasar\Variabel\obj\Debug\net10.0\refint\Variabel.dll
+C:\Users\Erika\Documents\Erik\Code\GitHub\Github 2\Kelas-XI-RPL\drive\dasar\Variabel\obj\Debug\net10.0\Variabel.pdb
+C:\Users\Erika\Documents\Erik\Code\GitHub\Github 2\Kelas-XI-RPL\drive\dasar\Variabel\obj\Debug\net10.0\Variabel.genruntimeconfig.cache
+C:\Users\Erika\Documents\Erik\Code\GitHub\Github 2\Kelas-XI-RPL\drive\dasar\Variabel\obj\Debug\net10.0\ref\Variabel.dll
