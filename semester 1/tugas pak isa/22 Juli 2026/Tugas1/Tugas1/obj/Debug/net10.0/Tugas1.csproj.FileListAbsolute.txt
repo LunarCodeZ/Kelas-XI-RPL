@@ -1,0 +1,14 @@
+C:\Users\Erika\source\repos\Tugas1\Tugas1\bin\Debug\net10.0\Tugas1.exe
+C:\Users\Erika\source\repos\Tugas1\Tugas1\bin\Debug\net10.0\Tugas1.deps.json
+C:\Users\Erika\source\repos\Tugas1\Tugas1\bin\Debug\net10.0\Tugas1.runtimeconfig.json
+C:\Users\Erika\source\repos\Tugas1\Tugas1\bin\Debug\net10.0\Tugas1.dll
+C:\Users\Erika\source\repos\Tugas1\Tugas1\bin\Debug\net10.0\Tugas1.pdb
+C:\Users\Erika\source\repos\Tugas1\Tugas1\obj\Debug\net10.0\Tugas1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Erika\source\repos\Tugas1\Tugas1\obj\Debug\net10.0\Tugas1.AssemblyInfoInputs.cache
+C:\Users\Erika\source\repos\Tugas1\Tugas1\obj\Debug\net10.0\Tugas1.AssemblyInfo.cs
+C:\Users\Erika\source\repos\Tugas1\Tugas1\obj\Debug\net10.0\Tugas1.csproj.CoreCompileInputs.cache
+C:\Users\Erika\source\repos\Tugas1\Tugas1\obj\Debug\net10.0\Tugas1.dll
+C:\Users\Erika\source\repos\Tugas1\Tugas1\obj\Debug\net10.0\refint\Tugas1.dll
+C:\Users\Erika\source\repos\Tugas1\Tugas1\obj\Debug\net10.0\Tugas1.pdb
+C:\Users\Erika\source\repos\Tugas1\Tugas1\obj\Debug\net10.0\Tugas1.genruntimeconfig.cache
+C:\Users\Erika\source\repos\Tugas1\Tugas1\obj\Debug\net10.0\ref\Tugas1.dll
