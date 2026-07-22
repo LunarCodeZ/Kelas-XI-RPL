@@ -1,0 +1,10 @@
+C:\Users\Erika\source\repos\KalkulatorSederhana2\KalkulatorSederhana2\bin\Debug\KalkulatorSederhana2.exe.config
+C:\Users\Erika\source\repos\KalkulatorSederhana2\KalkulatorSederhana2\bin\Debug\KalkulatorSederhana2.exe
+C:\Users\Erika\source\repos\KalkulatorSederhana2\KalkulatorSederhana2\bin\Debug\KalkulatorSederhana2.pdb
+C:\Users\Erika\source\repos\KalkulatorSederhana2\KalkulatorSederhana2\obj\Debug\KalkulatorSederhana2.csproj.AssemblyReference.cache
+C:\Users\Erika\source\repos\KalkulatorSederhana2\KalkulatorSederhana2\obj\Debug\KalkulatorSederhana2.Form1.resources
+C:\Users\Erika\source\repos\KalkulatorSederhana2\KalkulatorSederhana2\obj\Debug\KalkulatorSederhana2.Properties.Resources.resources
+C:\Users\Erika\source\repos\KalkulatorSederhana2\KalkulatorSederhana2\obj\Debug\KalkulatorSederhana2.csproj.GenerateResource.cache
+C:\Users\Erika\source\repos\KalkulatorSederhana2\KalkulatorSederhana2\obj\Debug\KalkulatorSederhana2.csproj.CoreCompileInputs.cache
+C:\Users\Erika\source\repos\KalkulatorSederhana2\KalkulatorSederhana2\obj\Debug\KalkulatorSederhana2.exe
+C:\Users\Erika\source\repos\KalkulatorSederhana2\KalkulatorSederhana2\obj\Debug\KalkulatorSederhana2.pdb

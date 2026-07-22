@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Erika\\source\\repos\\KalkulatorSederhana2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F481A673-2895-4D93-9A96-B21E1EC3E777}|KalkulatorSederhana2\\KalkulatorSederhana2.csproj|c:\\users\\erika\\source\\repos\\kalkulatorsederhana2\\kalkulatorsederhana2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F481A673-2895-4D93-9A96-B21E1EC3E777}|KalkulatorSederhana2\\KalkulatorSederhana2.csproj|solutionrelative:kalkulatorsederhana2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F481A673-2895-4D93-9A96-B21E1EC3E777}|KalkulatorSederhana2\\KalkulatorSederhana2.csproj|C:\\Users\\Erika\\source\\repos\\KalkulatorSederhana2\\kalkulatorsederhana2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F481A673-2895-4D93-9A96-B21E1EC3E777}|KalkulatorSederhana2\\KalkulatorSederhana2.csproj|solutionrelative:kalkulatorsederhana2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F481A673-2895-4D93-9A96-B21E1EC3E777}|KalkulatorSederhana2\\KalkulatorSederhana2.csproj|c:\\users\\erika\\source\\repos\\kalkulatorsederhana2\\kalkulatorsederhana2\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F481A673-2895-4D93-9A96-B21E1EC3E777}|KalkulatorSederhana2\\KalkulatorSederhana2.csproj|solutionrelative:kalkulatorsederhana2\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Erika\\source\\repos\\KalkulatorSederhana2\\KalkulatorSederhana2\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "KalkulatorSederhana2\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\Erika\\source\\repos\\KalkulatorSederhana2\\KalkulatorSederhana2\\Form1.Designer.cs",
+              "RelativeToolTip": "KalkulatorSederhana2\\Form1.Designer.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAUwGYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T08:25:58.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Erika\\source\\repos\\KalkulatorSederhana2\\KalkulatorSederhana2\\Form1.cs",
+              "RelativeDocumentMoniker": "KalkulatorSederhana2\\Form1.cs",
+              "ToolTip": "C:\\Users\\Erika\\source\\repos\\KalkulatorSederhana2\\KalkulatorSederhana2\\Form1.cs",
+              "RelativeToolTip": "KalkulatorSederhana2\\Form1.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAnwEAAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T01:03:05.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Erika\\source\\repos\\KalkulatorSederhana2\\KalkulatorSederhana2\\Form1.cs",
+              "RelativeDocumentMoniker": "KalkulatorSederhana2\\Form1.cs",
+              "ToolTip": "C:\\Users\\Erika\\source\\repos\\KalkulatorSederhana2\\KalkulatorSederhana2\\Form1.cs [Design]",
+              "RelativeToolTip": "KalkulatorSederhana2\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T00:00:20.277Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
