@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Erika\\Documents\\Erik\\Code\\GitHub\\Github 2\\Kelas-XI-RPL\\drive\\dasar\\ArrayDanKoleksiDasar\\",
+  "WorkspaceRootPath": "C:\\Users\\Erika\\Documents\\Erik\\Code\\GitHub\\Github 2\\Kelas-XI-RPL\\semester 1\\tugas pak isa\\15 Juli 2026\\dasar\\ArrayDanKoleksiDasar\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1AE24E29-9EF8-4581-B939-B69F0E93C3AD}|ArrayDanKoleksiDasar.csproj|c:\\users\\erika\\documents\\erik\\code\\github\\github 2\\kelas-xi-rpl\\drive\\dasar\\arraydankoleksidasar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1AE24E29-9EF8-4581-B939-B69F0E93C3AD}|ArrayDanKoleksiDasar.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Erika\\Documents\\Erik\\Code\\GitHub\\Github 2\\Kelas-XI-RPL\\semester 1\\tugas pak isa\\15 Juli 2026\\dasar\\ArrayDanKoleksiDasar\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,21 +14,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{c6f34f0d-7ae5-4f3a-be61-fe0c21ae9eb8}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Erika\\Documents\\Erik\\Code\\GitHub\\Github 2\\Kelas-XI-RPL\\drive\\dasar\\ArrayDanKoleksiDasar\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Erika\\Documents\\Erik\\Code\\GitHub\\Github 2\\Kelas-XI-RPL\\semester 1\\tugas pak isa\\15 Juli 2026\\dasar\\ArrayDanKoleksiDasar\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Erika\\Documents\\Erik\\Code\\GitHub\\Github 2\\Kelas-XI-RPL\\drive\\dasar\\ArrayDanKoleksiDasar\\Program.cs",
+              "ToolTip": "C:\\Users\\Erika\\Documents\\Erik\\Code\\GitHub\\Github 2\\Kelas-XI-RPL\\semester 1\\tugas pak isa\\15 Juli 2026\\dasar\\ArrayDanKoleksiDasar\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAmwDsAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAmwDAAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-15T05:35:56.33Z",
               "EditorCaption": ""
