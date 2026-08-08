@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8F06A341-5088-4025-90F6-FD94A9DC628F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ContohSoal1</RootNamespace>
+    <AssemblyName>ContohSoal1</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2Register.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2Register.Designer.cs">
+      <DependentUpon>Form2Register.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3Dashboard.Designer.cs">
+      <DependentUpon>Form3Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form8UbahStatusPenerbangan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form8UbahStatusPenerbangan.Designer.cs">
+      <DependentUpon>Form8UbahStatusPenerbangan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form7KodePromo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form7KodePromo.Designer.cs">
+      <DependentUpon>Form7KodePromo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form6JadwalPenerbangan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form6JadwalPenerbangan.Designer.cs">
+      <DependentUpon>Form6JadwalPenerbangan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form5Maskapai.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form5Maskapai.Designer.cs">
+      <DependentUpon>Form5Maskapai.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form4Bandara.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4Bandara.Designer.cs">
+      <DependentUpon>Form4Bandara.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2Register.resx">
+      <DependentUpon>Form2Register.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3Dashboard.resx">
+      <DependentUpon>Form3Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form8UbahStatusPenerbangan.resx">
+      <DependentUpon>Form8UbahStatusPenerbangan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form7KodePromo.resx">
+      <DependentUpon>Form7KodePromo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form6JadwalPenerbangan.resx">
+      <DependentUpon>Form6JadwalPenerbangan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form5Maskapai.resx">
+      <DependentUpon>Form5Maskapai.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4Bandara.resx">
+      <DependentUpon>Form4Bandara.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lunar2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Trip-Pin-Multiple--Streamline-Ultimate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plane chat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\red left arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\map marks.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plane take off.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar plane.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\map marks1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plane take off1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar plane1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tag1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar edit1.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
