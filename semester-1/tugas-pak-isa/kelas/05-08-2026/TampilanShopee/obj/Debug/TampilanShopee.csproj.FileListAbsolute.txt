@@ -1,0 +1,10 @@
+C:\Users\Erika\source\repos\TampilanShopeeFull\TampilanShopee\bin\Debug\TampilanShopee.exe.config
+C:\Users\Erika\source\repos\TampilanShopeeFull\TampilanShopee\bin\Debug\TampilanShopee.exe
+C:\Users\Erika\source\repos\TampilanShopeeFull\TampilanShopee\bin\Debug\TampilanShopee.pdb
+C:\Users\Erika\source\repos\TampilanShopeeFull\TampilanShopee\obj\Debug\TampilanShopee.csproj.AssemblyReference.cache
+C:\Users\Erika\source\repos\TampilanShopeeFull\TampilanShopee\obj\Debug\TampilanShopee.Form1.resources
+C:\Users\Erika\source\repos\TampilanShopeeFull\TampilanShopee\obj\Debug\TampilanShopee.Properties.Resources.resources
+C:\Users\Erika\source\repos\TampilanShopeeFull\TampilanShopee\obj\Debug\TampilanShopee.csproj.GenerateResource.cache
+C:\Users\Erika\source\repos\TampilanShopeeFull\TampilanShopee\obj\Debug\TampilanShopee.csproj.CoreCompileInputs.cache
+C:\Users\Erika\source\repos\TampilanShopeeFull\TampilanShopee\obj\Debug\TampilanShopee.exe
+C:\Users\Erika\source\repos\TampilanShopeeFull\TampilanShopee\obj\Debug\TampilanShopee.pdb

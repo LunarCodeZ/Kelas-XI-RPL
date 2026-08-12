@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Erika\\source\\repos\\TampilanShopeeFull\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3721B2D3-2B49-4A88-8E80-0F1299769B37}|TampilanShopee\\TampilanShopee.csproj|c:\\users\\erika\\source\\repos\\tampilanshopeefull\\tampilanshopee\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3721B2D3-2B49-4A88-8E80-0F1299769B37}|TampilanShopee\\TampilanShopee.csproj|solutionrelative:tampilanshopee\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3721B2D3-2B49-4A88-8E80-0F1299769B37}|TampilanShopee\\TampilanShopee.csproj|c:\\users\\erika\\source\\repos\\tampilanshopeefull\\tampilanshopee\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3721B2D3-2B49-4A88-8E80-0F1299769B37}|TampilanShopee\\TampilanShopee.csproj|solutionrelative:tampilanshopee\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3721B2D3-2B49-4A88-8E80-0F1299769B37}|TampilanShopee\\TampilanShopee.csproj|c:\\users\\erika\\source\\repos\\tampilanshopeefull\\tampilanshopee\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3721B2D3-2B49-4A88-8E80-0F1299769B37}|TampilanShopee\\TampilanShopee.csproj|solutionrelative:tampilanshopee\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Erika\\source\\repos\\TampilanShopeeFull\\TampilanShopee\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "TampilanShopee\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\Erika\\source\\repos\\TampilanShopeeFull\\TampilanShopee\\Form1.Designer.cs",
+              "RelativeToolTip": "TampilanShopee\\Form1.Designer.cs",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAqwIkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-10T06:57:04.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Erika\\source\\repos\\TampilanShopeeFull\\TampilanShopee\\Form1.cs",
+              "RelativeDocumentMoniker": "TampilanShopee\\Form1.cs",
+              "ToolTip": "C:\\Users\\Erika\\source\\repos\\TampilanShopeeFull\\TampilanShopee\\Form1.cs",
+              "RelativeToolTip": "TampilanShopee\\Form1.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAxwBEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-10T06:56:48.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Erika\\source\\repos\\TampilanShopeeFull\\TampilanShopee\\Form1.cs",
+              "RelativeDocumentMoniker": "TampilanShopee\\Form1.cs",
+              "ToolTip": "C:\\Users\\Erika\\source\\repos\\TampilanShopeeFull\\TampilanShopee\\Form1.cs [Design]",
+              "RelativeToolTip": "TampilanShopee\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-10T06:48:02.083Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
