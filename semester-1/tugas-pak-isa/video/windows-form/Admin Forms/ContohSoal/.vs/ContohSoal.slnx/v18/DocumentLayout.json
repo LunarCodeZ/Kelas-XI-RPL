@@ -3,36 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Erika\\source\\repos\\ContohSoal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8F06A341-5088-4025-90F6-FD94A9DC628F}|ContohSoal1\\ContohSoal1.csproj|c:\\users\\erika\\source\\repos\\contohsoal\\contohsoal1\\form8ubahstatuspenerbangan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8F06A341-5088-4025-90F6-FD94A9DC628F}|ContohSoal1\\ContohSoal1.csproj|solutionrelative:contohsoal1\\form8ubahstatuspenerbangan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{8F06A341-5088-4025-90F6-FD94A9DC628F}|ContohSoal1\\ContohSoal1.csproj|C:\\Users\\Erika\\source\\repos\\ContohSoal\\contohsoal1\\form10listpenerbangan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8F06A341-5088-4025-90F6-FD94A9DC628F}|ContohSoal1\\ContohSoal1.csproj|solutionrelative:contohsoal1\\form10listpenerbangan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F06A341-5088-4025-90F6-FD94A9DC628F}|ContohSoal1\\ContohSoal1.csproj|c:\\users\\erika\\source\\repos\\contohsoal\\contohsoal1\\form7kodepromo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8F06A341-5088-4025-90F6-FD94A9DC628F}|ContohSoal1\\ContohSoal1.csproj|solutionrelative:contohsoal1\\form7kodepromo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{8F06A341-5088-4025-90F6-FD94A9DC628F}|ContohSoal1\\ContohSoal1.csproj|C:\\Users\\Erika\\source\\repos\\ContohSoal\\contohsoal1\\form11belitiket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8F06A341-5088-4025-90F6-FD94A9DC628F}|ContohSoal1\\ContohSoal1.csproj|solutionrelative:contohsoal1\\form11belitiket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F06A341-5088-4025-90F6-FD94A9DC628F}|ContohSoal1\\ContohSoal1.csproj|c:\\users\\erika\\source\\repos\\contohsoal\\contohsoal1\\form6jadwalpenerbangan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8F06A341-5088-4025-90F6-FD94A9DC628F}|ContohSoal1\\ContohSoal1.csproj|solutionrelative:contohsoal1\\form6jadwalpenerbangan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{8F06A341-5088-4025-90F6-FD94A9DC628F}|ContohSoal1\\ContohSoal1.csproj|c:\\users\\erika\\source\\repos\\contohsoal\\contohsoal1\\form12tiketsaya.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F06A341-5088-4025-90F6-FD94A9DC628F}|ContohSoal1\\ContohSoal1.csproj|solutionrelative:contohsoal1\\form12tiketsaya.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F06A341-5088-4025-90F6-FD94A9DC628F}|ContohSoal1\\ContohSoal1.csproj|c:\\users\\erika\\source\\repos\\contohsoal\\contohsoal1\\form5maskapai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8F06A341-5088-4025-90F6-FD94A9DC628F}|ContohSoal1\\ContohSoal1.csproj|solutionrelative:contohsoal1\\form5maskapai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{8F06A341-5088-4025-90F6-FD94A9DC628F}|ContohSoal1\\ContohSoal1.csproj|c:\\users\\erika\\source\\repos\\contohsoal\\contohsoal1\\form12tiketsaya.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8F06A341-5088-4025-90F6-FD94A9DC628F}|ContohSoal1\\ContohSoal1.csproj|solutionrelative:contohsoal1\\form12tiketsaya.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F06A341-5088-4025-90F6-FD94A9DC628F}|ContohSoal1\\ContohSoal1.csproj|c:\\users\\erika\\source\\repos\\contohsoal\\contohsoal1\\form4bandara.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8F06A341-5088-4025-90F6-FD94A9DC628F}|ContohSoal1\\ContohSoal1.csproj|solutionrelative:contohsoal1\\form4bandara.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F06A341-5088-4025-90F6-FD94A9DC628F}|ContohSoal1\\ContohSoal1.csproj|C:\\Users\\Erika\\source\\repos\\ContohSoal\\contohsoal1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8F06A341-5088-4025-90F6-FD94A9DC628F}|ContohSoal1\\ContohSoal1.csproj|solutionrelative:contohsoal1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F06A341-5088-4025-90F6-FD94A9DC628F}|ContohSoal1\\ContohSoal1.csproj|c:\\users\\erika\\source\\repos\\contohsoal\\contohsoal1\\form3dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8F06A341-5088-4025-90F6-FD94A9DC628F}|ContohSoal1\\ContohSoal1.csproj|solutionrelative:contohsoal1\\form3dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F06A341-5088-4025-90F6-FD94A9DC628F}|ContohSoal1\\ContohSoal1.csproj|c:\\users\\erika\\source\\repos\\contohsoal\\contohsoal1\\form2register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8F06A341-5088-4025-90F6-FD94A9DC628F}|ContohSoal1\\ContohSoal1.csproj|solutionrelative:contohsoal1\\form2register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{8F06A341-5088-4025-90F6-FD94A9DC628F}|ContohSoal1\\ContohSoal1.csproj|C:\\Users\\Erika\\source\\repos\\ContohSoal\\contohsoal1\\form9customermain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8F06A341-5088-4025-90F6-FD94A9DC628F}|ContohSoal1\\ContohSoal1.csproj|solutionrelative:contohsoal1\\form9customermain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,102 +30,67 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form7KodePromo.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Erika\\source\\repos\\ContohSoal\\ContohSoal1\\Form7KodePromo.cs",
-              "RelativeDocumentMoniker": "ContohSoal1\\Form7KodePromo.cs",
-              "ToolTip": "C:\\Users\\Erika\\source\\repos\\ContohSoal\\ContohSoal1\\Form7KodePromo.cs [Design]",
-              "RelativeToolTip": "ContohSoal1\\Form7KodePromo.cs [Design]",
+              "DocumentIndex": 3,
+              "Title": "Form12TiketSaya.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Erika\\source\\repos\\ContohSoal\\ContohSoal1\\Form12TiketSaya.cs",
+              "RelativeDocumentMoniker": "ContohSoal1\\Form12TiketSaya.cs",
+              "ToolTip": "C:\\Users\\Erika\\source\\repos\\ContohSoal\\ContohSoal1\\Form12TiketSaya.cs [Design]",
+              "RelativeToolTip": "ContohSoal1\\Form12TiketSaya.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-08T18:14:16.627Z",
+              "WhenOpened": "2026-08-15T12:14:30.735Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Form6JadwalPenerbangan.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Erika\\source\\repos\\ContohSoal\\ContohSoal1\\Form6JadwalPenerbangan.cs",
-              "RelativeDocumentMoniker": "ContohSoal1\\Form6JadwalPenerbangan.cs",
-              "ToolTip": "C:\\Users\\Erika\\source\\repos\\ContohSoal\\ContohSoal1\\Form6JadwalPenerbangan.cs [Design]",
-              "RelativeToolTip": "ContohSoal1\\Form6JadwalPenerbangan.cs [Design]",
+              "Title": "Form12TiketSaya.cs",
+              "DocumentMoniker": "C:\\Users\\Erika\\source\\repos\\ContohSoal\\ContohSoal1\\Form12TiketSaya.cs",
+              "RelativeDocumentMoniker": "ContohSoal1\\Form12TiketSaya.cs",
+              "ToolTip": "C:\\Users\\Erika\\source\\repos\\ContohSoal\\ContohSoal1\\Form12TiketSaya.cs",
+              "RelativeToolTip": "ContohSoal1\\Form12TiketSaya.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-08T18:14:02.442Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-08-15T12:14:00.348Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form5Maskapai.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Erika\\source\\repos\\ContohSoal\\ContohSoal1\\Form5Maskapai.cs",
-              "RelativeDocumentMoniker": "ContohSoal1\\Form5Maskapai.cs",
-              "ToolTip": "C:\\Users\\Erika\\source\\repos\\ContohSoal\\ContohSoal1\\Form5Maskapai.cs [Design]",
-              "RelativeToolTip": "ContohSoal1\\Form5Maskapai.cs [Design]",
+              "DocumentIndex": 1,
+              "Title": "Form11BeliTiket.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Erika\\source\\repos\\ContohSoal\\ContohSoal1\\Form11BeliTiket.cs",
+              "RelativeDocumentMoniker": "ContohSoal1\\Form11BeliTiket.cs",
+              "ToolTip": "C:\\Users\\Erika\\source\\repos\\ContohSoal\\ContohSoal1\\Form11BeliTiket.cs [Design]",
+              "RelativeToolTip": "ContohSoal1\\Form11BeliTiket.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-08T18:13:49.61Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Form4Bandara.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Erika\\source\\repos\\ContohSoal\\ContohSoal1\\Form4Bandara.cs",
-              "RelativeDocumentMoniker": "ContohSoal1\\Form4Bandara.cs",
-              "ToolTip": "C:\\Users\\Erika\\source\\repos\\ContohSoal\\ContohSoal1\\Form4Bandara.cs [Design]",
-              "RelativeToolTip": "ContohSoal1\\Form4Bandara.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-08T18:13:33.75Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Form2Register.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Erika\\source\\repos\\ContohSoal\\ContohSoal1\\Form2Register.cs",
-              "RelativeDocumentMoniker": "ContohSoal1\\Form2Register.cs",
-              "ToolTip": "C:\\Users\\Erika\\source\\repos\\ContohSoal\\ContohSoal1\\Form2Register.cs [Design]",
-              "RelativeToolTip": "ContohSoal1\\Form2Register.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-08T18:12:53.296Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Form3Dashboard.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Erika\\source\\repos\\ContohSoal\\ContohSoal1\\Form3Dashboard.cs",
-              "RelativeDocumentMoniker": "ContohSoal1\\Form3Dashboard.cs",
-              "ToolTip": "C:\\Users\\Erika\\source\\repos\\ContohSoal\\ContohSoal1\\Form3Dashboard.cs [Design]",
-              "RelativeToolTip": "ContohSoal1\\Form3Dashboard.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-08T18:06:03.399Z",
+              "WhenOpened": "2026-08-15T11:27:06.694Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form8UbahStatusPenerbangan.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Erika\\source\\repos\\ContohSoal\\ContohSoal1\\Form8UbahStatusPenerbangan.cs",
-              "RelativeDocumentMoniker": "ContohSoal1\\Form8UbahStatusPenerbangan.cs",
-              "ToolTip": "C:\\Users\\Erika\\source\\repos\\ContohSoal\\ContohSoal1\\Form8UbahStatusPenerbangan.cs [Design]",
-              "RelativeToolTip": "ContohSoal1\\Form8UbahStatusPenerbangan.cs [Design]",
+              "Title": "Form10ListPenerbangan.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Erika\\source\\repos\\ContohSoal\\ContohSoal1\\Form10ListPenerbangan.cs",
+              "RelativeDocumentMoniker": "ContohSoal1\\Form10ListPenerbangan.cs",
+              "ToolTip": "C:\\Users\\Erika\\source\\repos\\ContohSoal\\ContohSoal1\\Form10ListPenerbangan.cs [Design]",
+              "RelativeToolTip": "ContohSoal1\\Form10ListPenerbangan.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-08T17:53:01.345Z",
+              "WhenOpened": "2026-08-15T10:28:26.101Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Erika\\source\\repos\\ContohSoal\\ContohSoal1\\Form1.cs",
-              "RelativeDocumentMoniker": "ContohSoal1\\Form1.cs",
-              "ToolTip": "C:\\Users\\Erika\\source\\repos\\ContohSoal\\ContohSoal1\\Form1.cs [Design]",
-              "RelativeToolTip": "ContohSoal1\\Form1.cs [Design]",
+              "DocumentIndex": 4,
+              "Title": "Form9CustomerMain.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Erika\\source\\repos\\ContohSoal\\ContohSoal1\\Form9CustomerMain.cs",
+              "RelativeDocumentMoniker": "ContohSoal1\\Form9CustomerMain.cs",
+              "ToolTip": "C:\\Users\\Erika\\source\\repos\\ContohSoal\\ContohSoal1\\Form9CustomerMain.cs [Design]",
+              "RelativeToolTip": "ContohSoal1\\Form9CustomerMain.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-08T00:40:15.47Z",
+              "WhenOpened": "2026-08-15T09:46:40.032Z",
               "EditorCaption": " [Design]"
             }
           ]

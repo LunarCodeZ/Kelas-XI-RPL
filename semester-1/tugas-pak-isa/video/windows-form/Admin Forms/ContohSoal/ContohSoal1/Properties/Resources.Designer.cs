@@ -63,9 +63,39 @@ namespace ContohSoal1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Arrow_Button_Left_3__Streamline_Ultimate__2_ {
+            get {
+                object obj = ResourceManager.GetObject("Arrow-Button-Left-3--Streamline-Ultimate (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Arrow_Right__Streamline_Ultimate__2_ {
+            get {
+                object obj = ResourceManager.GetObject("Arrow-Right--Streamline-Ultimate (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap calendar {
             get {
                 object obj = ResourceManager.GetObject("calendar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Calendar_Date_Mark_Circle__Streamline_Ultimate__1_ {
+            get {
+                object obj = ResourceManager.GetObject("Calendar-Date-Mark-Circle--Streamline-Ultimate (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -173,9 +203,39 @@ namespace ContohSoal1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Multiple_Man_Woman_4__Streamline_Ultimate__2_ {
+            get {
+                object obj = ResourceManager.GetObject("Multiple-Man-Woman-4--Streamline-Ultimate (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap plane_chat {
             get {
                 object obj = ResourceManager.GetObject("plane chat", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Plane_Land__Streamline_Ultimate__1_ {
+            get {
+                object obj = ResourceManager.GetObject("Plane-Land--Streamline-Ultimate (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Plane_Land__Streamline_Ultimate__2_ {
+            get {
+                object obj = ResourceManager.GetObject("Plane-Land--Streamline-Ultimate (2)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -213,6 +273,16 @@ namespace ContohSoal1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Safety_Exit_Door__Streamline_Ultimate__1_ {
+            get {
+                object obj = ResourceManager.GetObject("Safety-Exit-Door--Streamline-Ultimate (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap tag {
             get {
                 object obj = ResourceManager.GetObject("tag", resourceCulture);
@@ -226,6 +296,36 @@ namespace ContohSoal1.Properties {
         internal static System.Drawing.Bitmap tag1 {
             get {
                 object obj = ResourceManager.GetObject("tag1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Time_Clock_Circle_1__Streamline_Ultimate {
+            get {
+                object obj = ResourceManager.GetObject("Time-Clock-Circle-1--Streamline-Ultimate", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Transportation_Ticket_Plane__Streamline_Ultimate__1_ {
+            get {
+                object obj = ResourceManager.GetObject("Transportation-Ticket-Plane--Streamline-Ultimate (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Transportation_Ticket_Plane__Streamline_Ultimate__2_ {
+            get {
+                object obj = ResourceManager.GetObject("Transportation-Ticket-Plane--Streamline-Ultimate (2)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -27,3 +27,5 @@ C:\Users\Erika\source\repos\ContohSoal\ContohSoal1\obj\Debug\ContohSoal1.Form7Ko
 C:\Users\Erika\source\repos\ContohSoal\ContohSoal1\obj\Debug\ContohSoal1.Form6JadwalPenerbangan.resources
 C:\Users\Erika\source\repos\ContohSoal\ContohSoal1\obj\Debug\ContohSoal1.Form5Maskapai.resources
 C:\Users\Erika\source\repos\ContohSoal\ContohSoal1\obj\Debug\ContohSoal1.Form4Bandara.resources
+C:\Users\Erika\source\repos\ContohSoal\ContohSoal1\obj\Debug\ContohSoal1.Form10ListPenerbangan.resources
+C:\Users\Erika\source\repos\ContohSoal\ContohSoal1\obj\Debug\ContohSoal1.Form9CustomerMain.resources

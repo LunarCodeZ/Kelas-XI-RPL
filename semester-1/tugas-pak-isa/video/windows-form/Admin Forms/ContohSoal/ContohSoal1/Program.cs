@@ -16,7 +16,7 @@ namespace ContohSoal1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1Login());
+            Application.Run(new Form9CustomerMain());
         }
     }
 }

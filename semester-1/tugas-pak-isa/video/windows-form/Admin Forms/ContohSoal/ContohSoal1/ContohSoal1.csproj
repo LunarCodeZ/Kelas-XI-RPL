@@ -52,6 +52,24 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form12TiketSaya.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form12TiketSaya.Designer.cs">
+      <DependentUpon>Form12TiketSaya.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form11BeliTiket.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form11BeliTiket.Designer.cs">
+      <DependentUpon>Form11BeliTiket.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form10ListPenerbangan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form10ListPenerbangan.Designer.cs">
+      <DependentUpon>Form10ListPenerbangan.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form2Register.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -94,10 +112,31 @@
     <Compile Include="Form4Bandara.Designer.cs">
       <DependentUpon>Form4Bandara.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form9CustomerMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form9CustomerMain.Designer.cs">
+      <DependentUpon>Form9CustomerMain.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PenumpangControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PenumpangControl.Designer.cs">
+      <DependentUpon>PenumpangControl.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form12TiketSaya.resx">
+      <DependentUpon>Form12TiketSaya.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form11BeliTiket.resx">
+      <DependentUpon>Form11BeliTiket.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form10ListPenerbangan.resx">
+      <DependentUpon>Form10ListPenerbangan.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form2Register.resx">
       <DependentUpon>Form2Register.cs</DependentUpon>
@@ -120,10 +159,16 @@
     <EmbeddedResource Include="Form4Bandara.resx">
       <DependentUpon>Form4Bandara.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form9CustomerMain.resx">
+      <DependentUpon>Form9CustomerMain.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PenumpangControl.resx">
+      <DependentUpon>PenumpangControl.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -196,6 +241,36 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\calendar edit1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arrow-Button-Left-3--Streamline-Ultimate %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Calendar-Date-Mark-Circle--Streamline-Ultimate %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Time-Clock-Circle-1--Streamline-Ultimate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Multiple-Man-Woman-4--Streamline-Ultimate %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arrow-Right--Streamline-Ultimate %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Transportation-Ticket-Plane--Streamline-Ultimate %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Transportation-Ticket-Plane--Streamline-Ultimate %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Safety-Exit-Door--Streamline-Ultimate %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Plane-Land--Streamline-Ultimate %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Plane-Land--Streamline-Ultimate %282%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

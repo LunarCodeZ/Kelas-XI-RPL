@@ -121,20 +121,44 @@
   <data name="lunar2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\lunar2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="calendar edit" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\calendar edit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Safety-Exit-Door--Streamline-Ultimate (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Safety-Exit-Door--Streamline-Ultimate (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="plane take off" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\plane take off.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="calendar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\calendar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Time-Clock-Circle-1--Streamline-Ultimate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Time-Clock-Circle-1--Streamline-Ultimate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Arrow-Right--Streamline-Ultimate (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Arrow-Right--Streamline-Ultimate (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Trip-Pin-Multiple--Streamline-Ultimate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Trip-Pin-Multiple--Streamline-Ultimate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="menu2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\menu2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="calendar edit1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\calendar edit1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="plane chat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\plane chat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="map marks1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\map marks1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="menu1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\menu1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Transportation-Ticket-Plane--Streamline-Ultimate (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Transportation-Ticket-Plane--Streamline-Ultimate (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="plane take off" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\plane take off.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Arrow-Button-Left-3--Streamline-Ultimate (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Arrow-Button-Left-3--Streamline-Ultimate (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="map marks" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\map marks.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="calendar plane1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\calendar plane1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -142,34 +166,40 @@
   <data name="plane take off1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\plane take off1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="calendar plane" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\calendar plane.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Multiple-Man-Woman-4--Streamline-Ultimate (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Multiple-Man-Woman-4--Streamline-Ultimate (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Calendar-Date-Mark-Circle--Streamline-Ultimate (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Calendar-Date-Mark-Circle--Streamline-Ultimate (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="tag1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\tag1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="menu" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\menu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Transportation-Ticket-Plane--Streamline-Ultimate (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Transportation-Ticket-Plane--Streamline-Ultimate (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="red left arrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\red left arrow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Trip-Pin-Multiple--Streamline-Ultimate" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Trip-Pin-Multiple--Streamline-Ultimate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="calendar plane" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\calendar plane.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="tag" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\tag.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="plane chat" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\plane chat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="calendar edit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\calendar edit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="calendar" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\calendar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="menu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="map marks" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\map marks.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="menu1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="calendar edit1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\calendar edit1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Plane-Land--Streamline-Ultimate (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Plane-Land--Streamline-Ultimate (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Plane-Land--Streamline-Ultimate (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Plane-Land--Streamline-Ultimate (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
