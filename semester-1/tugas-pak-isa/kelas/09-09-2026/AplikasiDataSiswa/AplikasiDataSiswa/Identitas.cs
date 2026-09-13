@@ -230,7 +230,7 @@ namespace AplikasiDataSiswa
             {
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("\nAksi tidak valid!");
-                Console.WriteLine("Silahkan coba lagi...\n");
+                Console.WriteLine("Silakan coba lagi...\n");
                 siswa();
             }
         }
@@ -332,7 +332,7 @@ namespace AplikasiDataSiswa
                                     Console.Clear();
                                     Console.ForegroundColor = ConsoleColor.Red;
                                     Console.WriteLine("No. telepon harus diantara 10 - 12 karakter!");
-                                    Console.WriteLine("Silahkan coba lagi...\n");
+                                    Console.WriteLine("Silakan coba lagi...\n");
                                 }
                             }
                             break;
@@ -468,68 +468,255 @@ namespace AplikasiDataSiswa
             {
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("\nAksi tidak valid!");
-                Console.WriteLine("Silahkan coba lagi...\n");
+                Console.WriteLine("Silakan coba lagi...\n");
                 wali();
             }
         }
 
-        public static void sekolah()
+        public static void sekolah(string mode = "")
         {
-            Console.ForegroundColor = ConsoleColor.Cyan;
-            Console.WriteLine("--------------------------------");
-            Console.WriteLine("|   Data Identitas - Sekolah   |");
-            Console.WriteLine("-------------------------------");
-
-            int opsi;
-            List<string> daftarAksi = ["Kembali", "Tambah Sekolah Baru", "Lihat Data Sekolah", "Impor Data"];
-            if (DataStorage.jumlahSekolah > 0)
+            if (mode == "")
             {
-                daftarAksi.Add("Ekspor Data");
-            }
+                Console.ForegroundColor = ConsoleColor.Cyan;
+                Console.WriteLine("--------------------------------");
+                Console.WriteLine("|   Data Identitas - Sekolah   |");
+                Console.WriteLine("--------------------------------");
 
-            Console.WriteLine("\n>> Daftar Aksi <<");
-            Console.ForegroundColor = ConsoleColor.Gray;
-            for (int i = 0; i < daftarAksi.Count; i++)
-            {
-                Console.WriteLine($"[{i}] {daftarAksi[i]}");
-            }
-            Console.ForegroundColor = ConsoleColor.Cyan;
-            Console.Write("Pilih aksi: ");
-            Console.ForegroundColor = ConsoleColor.Gray;
-            opsi = Convert.ToInt32(Console.ReadLine());
-
-            if (opsi >= 0 && opsi <= 4)
-            {
-                switch (opsi)
+                int opsi;
+                List<string> daftarAksi = ["Kembali", "Tambah Sekolah Baru", "Lihat Data Sekolah", "Impor Data"];
+                if (DataStorage.jumlahWali > 0)
                 {
-                    // kembali ke home
-                    case 0:
-                        Console.Clear();
-                        Home.identitas();
-                        break;
+                    daftarAksi.Insert(3, "Ubah Data Sekolah");
+                    daftarAksi.Insert(4, "Hapus Data Sekolah");
+                    daftarAksi.Insert(5, "Reset Data Sekolah");
+                    daftarAksi.Add("Ekspor Data");
+                }
 
-                    // tambah sekolah baru
-                    case 1:
-                        break;
+                Console.WriteLine("\n>> Daftar Aksi <<");
+                Console.ForegroundColor = ConsoleColor.Gray;
+                for (int i = 0; i < daftarAksi.Count; i++)
+                {
+                    Console.WriteLine($"[{i}] {daftarAksi[i]}");
+                }
+                Console.ForegroundColor = ConsoleColor.Cyan;
+                Console.Write("Pilih aksi: ");
+                Console.ForegroundColor = ConsoleColor.Gray;
+                opsi = Convert.ToInt32(Console.ReadLine());
 
-                    // lihat data sekolah
-                    case 2:
-                        break;
+                if (opsi >= 0 && opsi <= 4)
+                {
+                    switch (opsi)
+                    {
+                        // kembali ke home
+                        case 0:
+                            Console.Clear();
+                            Home.identitas();
+                            break;
 
-                    // impor data
-                    case 3:
-                        break;
+                        // tambah sekolah baru
+                        case 1:
+                            string nama;
+                            string alamat;
+                            string akreditasi;
+                            int indeks;
+                            DateTime tanggal;
 
-                    // ekspor data
-                    default:
-                        break;
+                            bool isLoop = true;
+                            while (isLoop)
+                            {
+                                Console.ForegroundColor = ConsoleColor.Cyan;
+                                Console.WriteLine("\n>> Tambah Sekolah Baru <<");
+
+                                Console.ForegroundColor = ConsoleColor.Gray;
+                                Console.Write("Nama sekolah: ");
+                                Console.ForegroundColor = ConsoleColor.Cyan;
+                                nama = Console.ReadLine();
+
+                                Console.ForegroundColor = ConsoleColor.Gray;
+                                Console.Write("Alamat sekolah: ");
+                                Console.ForegroundColor = ConsoleColor.Cyan;
+                                alamat = Console.ReadLine();
+
+                                Console.ForegroundColor = ConsoleColor.Gray;
+                                Console.Write("Akreditasi sekolah: ");
+                                Console.ForegroundColor = ConsoleColor.Cyan;
+                                akreditasi = Console.ReadLine();
+
+                                // validasi akreditasi
+                                if (akreditasi.Length > 1)
+                                {
+                                    Console.Clear();
+                                    Console.ForegroundColor = ConsoleColor.Red;
+                                    Console.WriteLine("Akreditasi sekolah harus karakter tunggal!");
+                                    Console.WriteLine("Contoh: A, B, C");
+                                    Console.WriteLine("Silakan coba lagi...\n");
+                                }
+                                else if (akreditasi.Length == 0)
+                                {
+                                    Console.Clear();
+                                    Console.ForegroundColor = ConsoleColor.Red;
+                                    Console.WriteLine("Akreditasi sekolah tidak boleh kosong!");
+                                    Console.WriteLine("Harap isi dengan karakter tunggal.");
+                                    Console.WriteLine("Contoh: A, B, C");
+                                    Console.WriteLine("Silakan coba lagi...\n");
+                                }
+                                else
+                                {
+                                    Console.ForegroundColor = ConsoleColor.Gray;
+                                    Console.Write("Indeks sekolah: ");
+                                    Console.ForegroundColor = ConsoleColor.Cyan;
+                                    indeks = Convert.ToInt32(Console.ReadLine());
+
+                                    tanggal = DateTime.Today;
+                                    DataStorage.namaSekolahColumn = Math.Max(DataStorage.namaSekolahColumn, nama.Length);
+                                    DataStorage.alamatSekolahColumn = Math.Max(DataStorage.alamatSekolahColumn, alamat.Length);
+
+                                    DataStorage.jumlahSekolah++;
+                                    DataStorage.daftarNamaSekolah.Add(nama);
+                                    DataStorage.daftarAlamatSekolah.Add(alamat);
+                                    DataStorage.daftarAkreditasiSekolah.Add(akreditasi[0]);
+                                    DataStorage.daftarIndeksSekolah.Add(indeks);
+                                    DataStorage.daftarTanggalSekolah.Add(tanggal.ToString("dd-MM-yyyy"));
+
+                                    Console.Clear();
+                                    Console.ForegroundColor = ConsoleColor.Green;
+                                    Console.WriteLine("Data sekolah berhasil ditambahkan!\n");
+                                    isLoop = false;
+                                    sekolah();
+                                }
+                            }
+                            break;
+
+                        // lihat data sekolah
+                        case 2:
+                            sekolah("read");
+                            break;
+
+                        // impor data / ubah data sekolah
+                        case 3:
+                            if (DataStorage.jumlahSekolah > 0)
+                            {
+                                sekolah("in progress");
+                            }
+                            else
+                            {
+                                sekolah("in progress");
+                            }
+                            break;
+
+
+                        // hapus data sekolah
+                        case 4:
+                            if (DataStorage.jumlahSekolah > 0)
+                            {
+                                sekolah("in progress");
+                            }
+                            else
+                            {
+                                sekolah("invalid");
+                            }
+                            break;
+
+
+                        // reset data sekolah
+                        case 5:
+                            if (DataStorage.jumlahSekolah > 0)
+                            {
+                                sekolah("in progress");
+                            }
+                            else
+                            {
+                                sekolah("invalid");
+                            }
+                            break;
+
+
+                        // impor data sekolah
+                        case 6:
+                            if (DataStorage.jumlahSekolah > 0)
+                            {
+                                sekolah("in progress");
+                            }
+                            else
+                            {
+                                sekolah("invalid");
+                            }
+                            break;
+
+
+                        // ekspor data sekolah
+                        default:
+                            if (DataStorage.jumlahSekolah > 0)
+                            {
+                                sekolah("in progress");
+                            }
+                            else
+                            {
+                                sekolah("invalid");
+                            }
+                            break;
+                    }
+                }
+                else
+                {
+                    sekolah("invalid");
                 }
             }
-            else
+            else if (mode == "read")
+            {
+                if (DataStorage.jumlahSekolah > 0)
+                {
+                    Console.ForegroundColor = ConsoleColor.Cyan;
+                    Console.WriteLine("\n>> Data Sekolah <<\n");
+                    Console.ForegroundColor = ConsoleColor.Gray;
+                    Console.WriteLine($"+-----+--------------{new string('-', DataStorage.namaSekolahColumn - DataStorage.NAMA_SEKOLAH_COLUMN)}+----------------{new string('-', DataStorage.alamatSekolahColumn - DataStorage.ALAMAT_SEKOLAH_COLUMN)}+------------+--------+----------------+");
+                    Console.WriteLine($"| No. | Nama Sekolah {new string(' ', DataStorage.namaSekolahColumn - DataStorage.NAMA_SEKOLAH_COLUMN)}| Alamat Sekolah {new string(' ', DataStorage.alamatSekolahColumn - DataStorage.ALAMAT_SEKOLAH_COLUMN)}| Akreditasi | Indeks | Tanggal Dibuat |");
+                    Console.WriteLine($"+-----+--------------{new string('-', DataStorage.namaSekolahColumn - DataStorage.NAMA_SEKOLAH_COLUMN)}+----------------{new string('-', DataStorage.alamatSekolahColumn - DataStorage.ALAMAT_SEKOLAH_COLUMN)}+------------+--------+----------------+");
+
+                    for (int i = 0; i < DataStorage.jumlahSekolah; i++)
+                    {
+                        // no
+                        Console.Write($"| {i + 1}. {new string(' ', 2 - i.ToString().Length)}| ");
+
+                        // nama sekolah
+                        Console.Write($"{DataStorage.daftarNamaSekolah[i]}{new string(' ', DataStorage.namaSekolahColumn - DataStorage.daftarNamaSekolah[i].Length)} | ");
+
+                        // alamat sekolah
+                        Console.Write($"{DataStorage.daftarAlamatSekolah[i]}{new string(' ', DataStorage.alamatSekolahColumn - DataStorage.daftarAlamatSekolah[i].Length)} | ");
+
+                        // akreditasi sekolah
+                        Console.Write($"{DataStorage.daftarAkreditasiSekolah[i]}          | ");
+
+                        // indeks sekolah
+                        Console.Write($"{DataStorage.daftarIndeksSekolah[i]}{new string(' ', DataStorage.INDEKS_SEKOLAH_COLUMN - DataStorage.daftarIndeksSekolah[i].ToString().Length)} | ");
+
+                        // tanggal dibuat
+                        Console.WriteLine($"{DataStorage.daftarTanggalSekolah[i]}     |");
+                    }
+                    Console.WriteLine($"+-----+--------------{new string('-', DataStorage.namaSekolahColumn - DataStorage.NAMA_SEKOLAH_COLUMN)}+----------------{new string('-', DataStorage.alamatSekolahColumn - DataStorage.ALAMAT_SEKOLAH_COLUMN)}+------------+--------+----------------+\n");
+                    sekolah();
+                }
+                else
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("\nTidak ada data sekolah satupun!");
+                    Console.WriteLine("Mohon tambahkan sekolah terlebih dahulu...\n");
+                    sekolah();
+                }
+            }
+            else if (mode == "invalid")
             {
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("\nAksi tidak valid!");
-                Console.WriteLine("Silahkan coba lagi...\n");
+                Console.WriteLine("Silakan coba lagi...\n");
+                sekolah();
+            }
+            else if (mode == "in progress")
+            {
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                Console.WriteLine("\nAksi masih dalam proses pengembangan!");
+                Console.WriteLine("Mohon bersabar :)");
+                Console.WriteLine("Silakan coba aksi lain...\n");
                 sekolah();
             }
         }

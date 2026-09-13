@@ -42,15 +42,19 @@ namespace AplikasiDataSiswa
 
 
         // data sekolah
-        public const int NAMA_SEKOLAH_COLUMN = 0;
-        public const int ALAMAT_SEKOLAH_COLUMN = 0;
-        public static int namaSekolahColumn;
-        public static int alamatSekolahColumn;
+        public const int NAMA_SEKOLAH_COLUMN = 12;
+        public const int ALAMAT_SEKOLAH_COLUMN = 14;
+        public const int AKREDITASI_SEKOLAH_COLUMN = 10;
+        public const int INDEKS_SEKOLAH_COLUMN = 6;
+        public const int TANGGAL_SEKOLAH_COLUMN = 14;
+        public static int namaSekolahColumn = NAMA_SEKOLAH_COLUMN;
+        public static int alamatSekolahColumn = ALAMAT_SEKOLAH_COLUMN;
 
         public static int jumlahSekolah = 0;
         public static List<string> daftarNamaSekolah = new List<string>();
         public static List<string> daftarAlamatSekolah = new List<string>();
         public static List<char> daftarAkreditasiSekolah = new List<char>();
-        public static List<float> daftarIndeksSekolah = new List<float>();
+        public static List<int> daftarIndeksSekolah = new List<int>();
+        public static List<string> daftarTanggalSekolah = new List<string>();
     }
 }
