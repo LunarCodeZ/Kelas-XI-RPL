@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Erika\\Documents\\Erik\\Code\\GitHub\\github-2\\kelas-xi-rpl\\semester-1\\tugas-pak-isa\\kelas\\09-09-2026\\AplikasiDataSiswa\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{71D188C3-8878-3ECE-F1E5-53BD081F1982}|AplikasiDataSiswa\\AplikasiDataSiswa.csproj|c:\\users\\erika\\documents\\erik\\code\\github\\github-2\\kelas-xi-rpl\\semester-1\\tugas-pak-isa\\kelas\\09-09-2026\\aplikasidatasiswa\\aplikasidatasiswa\\identitas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71D188C3-8878-3ECE-F1E5-53BD081F1982}|AplikasiDataSiswa\\AplikasiDataSiswa.csproj|solutionrelative:aplikasidatasiswa\\identitas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{71D188C3-8878-3ECE-F1E5-53BD081F1982}|AplikasiDataSiswa\\AplikasiDataSiswa.csproj|c:\\users\\erika\\documents\\erik\\code\\github\\github-2\\kelas-xi-rpl\\semester-1\\tugas-pak-isa\\kelas\\09-09-2026\\aplikasidatasiswa\\aplikasidatasiswa\\datastorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71D188C3-8878-3ECE-F1E5-53BD081F1982}|AplikasiDataSiswa\\AplikasiDataSiswa.csproj|solutionrelative:aplikasidatasiswa\\datastorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{71D188C3-8878-3ECE-F1E5-53BD081F1982}|AplikasiDataSiswa\\AplikasiDataSiswa.csproj|c:\\users\\erika\\documents\\erik\\code\\github\\github-2\\kelas-xi-rpl\\semester-1\\tugas-pak-isa\\kelas\\09-09-2026\\aplikasidatasiswa\\aplikasidatasiswa\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71D188C3-8878-3ECE-F1E5-53BD081F1982}|AplikasiDataSiswa\\AplikasiDataSiswa.csproj|solutionrelative:aplikasidatasiswa\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{71D188C3-8878-3ECE-F1E5-53BD081F1982}|AplikasiDataSiswa\\AplikasiDataSiswa.csproj|c:\\users\\erika\\documents\\erik\\code\\github\\github-2\\kelas-xi-rpl\\semester-1\\tugas-pak-isa\\kelas\\09-09-2026\\aplikasidatasiswa\\aplikasidatasiswa\\nilai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71D188C3-8878-3ECE-F1E5-53BD081F1982}|AplikasiDataSiswa\\AplikasiDataSiswa.csproj|solutionrelative:aplikasidatasiswa\\nilai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{71D188C3-8878-3ECE-F1E5-53BD081F1982}|AplikasiDataSiswa\\AplikasiDataSiswa.csproj|c:\\users\\erika\\documents\\erik\\code\\github\\github-2\\kelas-xi-rpl\\semester-1\\tugas-pak-isa\\kelas\\09-09-2026\\aplikasidatasiswa\\aplikasidatasiswa\\absensi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71D188C3-8878-3ECE-F1E5-53BD081F1982}|AplikasiDataSiswa\\AplikasiDataSiswa.csproj|solutionrelative:aplikasidatasiswa\\absensi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{71D188C3-8878-3ECE-F1E5-53BD081F1982}|AplikasiDataSiswa\\AplikasiDataSiswa.csproj|c:\\users\\erika\\documents\\erik\\code\\github\\github-2\\kelas-xi-rpl\\semester-1\\tugas-pak-isa\\kelas\\09-09-2026\\aplikasidatasiswa\\aplikasidatasiswa\\matapelajaran.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{71D188C3-8878-3ECE-F1E5-53BD081F1982}|AplikasiDataSiswa\\AplikasiDataSiswa.csproj|solutionrelative:aplikasidatasiswa\\matapelajaran.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{71D188C3-8878-3ECE-F1E5-53BD081F1982}|AplikasiDataSiswa\\AplikasiDataSiswa.csproj|c:\\users\\erika\\documents\\erik\\code\\github\\github-2\\kelas-xi-rpl\\semester-1\\tugas-pak-isa\\kelas\\09-09-2026\\aplikasidatasiswa\\aplikasidatasiswa\\absensi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71D188C3-8878-3ECE-F1E5-53BD081F1982}|AplikasiDataSiswa\\AplikasiDataSiswa.csproj|solutionrelative:aplikasidatasiswa\\absensi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{71D188C3-8878-3ECE-F1E5-53BD081F1982}|AplikasiDataSiswa\\AplikasiDataSiswa.csproj|c:\\users\\erika\\documents\\erik\\code\\github\\github-2\\kelas-xi-rpl\\semester-1\\tugas-pak-isa\\kelas\\09-09-2026\\aplikasidatasiswa\\aplikasidatasiswa\\identitas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71D188C3-8878-3ECE-F1E5-53BD081F1982}|AplikasiDataSiswa\\AplikasiDataSiswa.csproj|solutionrelative:aplikasidatasiswa\\identitas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71D188C3-8878-3ECE-F1E5-53BD081F1982}|AplikasiDataSiswa\\AplikasiDataSiswa.csproj|c:\\users\\erika\\documents\\erik\\code\\github\\github-2\\kelas-xi-rpl\\semester-1\\tugas-pak-isa\\kelas\\09-09-2026\\aplikasidatasiswa\\aplikasidatasiswa\\nilai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71D188C3-8878-3ECE-F1E5-53BD081F1982}|AplikasiDataSiswa\\AplikasiDataSiswa.csproj|solutionrelative:aplikasidatasiswa\\nilai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71D188C3-8878-3ECE-F1E5-53BD081F1982}|AplikasiDataSiswa\\AplikasiDataSiswa.csproj|c:\\users\\erika\\documents\\erik\\code\\github\\github-2\\kelas-xi-rpl\\semester-1\\tugas-pak-isa\\kelas\\09-09-2026\\aplikasidatasiswa\\aplikasidatasiswa\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71D188C3-8878-3ECE-F1E5-53BD081F1982}|AplikasiDataSiswa\\AplikasiDataSiswa.csproj|solutionrelative:aplikasidatasiswa\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71D188C3-8878-3ECE-F1E5-53BD081F1982}|AplikasiDataSiswa\\AplikasiDataSiswa.csproj|c:\\users\\erika\\documents\\erik\\code\\github\\github-2\\kelas-xi-rpl\\semester-1\\tugas-pak-isa\\kelas\\09-09-2026\\aplikasidatasiswa\\aplikasidatasiswa\\datastorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71D188C3-8878-3ECE-F1E5-53BD081F1982}|AplikasiDataSiswa\\AplikasiDataSiswa.csproj|solutionrelative:aplikasidatasiswa\\datastorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,20 +34,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "DataStorage.cs",
               "DocumentMoniker": "C:\\Users\\Erika\\Documents\\Erik\\Code\\GitHub\\github-2\\kelas-xi-rpl\\semester-1\\tugas-pak-isa\\kelas\\09-09-2026\\AplikasiDataSiswa\\AplikasiDataSiswa\\DataStorage.cs",
               "RelativeDocumentMoniker": "AplikasiDataSiswa\\DataStorage.cs",
               "ToolTip": "C:\\Users\\Erika\\Documents\\Erik\\Code\\GitHub\\github-2\\kelas-xi-rpl\\semester-1\\tugas-pak-isa\\kelas\\09-09-2026\\AplikasiDataSiswa\\AplikasiDataSiswa\\DataStorage.cs",
               "RelativeToolTip": "AplikasiDataSiswa\\DataStorage.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAmwDgAAABCAAAAAAAAAA==",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAQwFUAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-12T05:47:18.572Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-12T05:47:18.572Z"
             },
             {
               "$type": "Document",
@@ -59,57 +58,59 @@
               "RelativeToolTip": "AplikasiDataSiswa\\Nilai.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-10T20:58:44.189Z"
+              "WhenOpened": "2026-09-10T20:58:44.189Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Absensi.cs",
               "DocumentMoniker": "C:\\Users\\Erika\\Documents\\Erik\\Code\\GitHub\\github-2\\kelas-xi-rpl\\semester-1\\tugas-pak-isa\\kelas\\09-09-2026\\AplikasiDataSiswa\\AplikasiDataSiswa\\Absensi.cs",
               "RelativeDocumentMoniker": "AplikasiDataSiswa\\Absensi.cs",
               "ToolTip": "C:\\Users\\Erika\\Documents\\Erik\\Code\\GitHub\\github-2\\kelas-xi-rpl\\semester-1\\tugas-pak-isa\\kelas\\09-09-2026\\AplikasiDataSiswa\\AplikasiDataSiswa\\Absensi.cs",
               "RelativeToolTip": "AplikasiDataSiswa\\Absensi.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8BAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-10T20:58:46.495Z"
+              "WhenOpened": "2026-09-10T20:58:46.495Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "MataPelajaran.cs",
               "DocumentMoniker": "C:\\Users\\Erika\\Documents\\Erik\\Code\\GitHub\\github-2\\kelas-xi-rpl\\semester-1\\tugas-pak-isa\\kelas\\09-09-2026\\AplikasiDataSiswa\\AplikasiDataSiswa\\MataPelajaran.cs",
               "RelativeDocumentMoniker": "AplikasiDataSiswa\\MataPelajaran.cs",
               "ToolTip": "C:\\Users\\Erika\\Documents\\Erik\\Code\\GitHub\\github-2\\kelas-xi-rpl\\semester-1\\tugas-pak-isa\\kelas\\09-09-2026\\AplikasiDataSiswa\\AplikasiDataSiswa\\MataPelajaran.cs",
               "RelativeToolTip": "AplikasiDataSiswa\\MataPelajaran.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-10T20:58:46.244Z"
+              "WhenOpened": "2026-09-10T20:58:46.244Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Identitas.cs",
               "DocumentMoniker": "C:\\Users\\Erika\\Documents\\Erik\\Code\\GitHub\\github-2\\kelas-xi-rpl\\semester-1\\tugas-pak-isa\\kelas\\09-09-2026\\AplikasiDataSiswa\\AplikasiDataSiswa\\Identitas.cs",
               "RelativeDocumentMoniker": "AplikasiDataSiswa\\Identitas.cs",
               "ToolTip": "C:\\Users\\Erika\\Documents\\Erik\\Code\\GitHub\\github-2\\kelas-xi-rpl\\semester-1\\tugas-pak-isa\\kelas\\09-09-2026\\AplikasiDataSiswa\\AplikasiDataSiswa\\Identitas.cs",
               "RelativeToolTip": "AplikasiDataSiswa\\Identitas.cs",
-              "ViewState": "AgIAAJcCAAAAAAAAAAAAALICAAC1AAAAAAAAAA==",
+              "ViewState": "AgIAAPUCAAAAAAAAAAAQwEoCAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-10T20:57:09.028Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Home.cs",
               "DocumentMoniker": "C:\\Users\\Erika\\Documents\\Erik\\Code\\GitHub\\github-2\\kelas-xi-rpl\\semester-1\\tugas-pak-isa\\kelas\\09-09-2026\\AplikasiDataSiswa\\AplikasiDataSiswa\\Home.cs",
               "RelativeDocumentMoniker": "AplikasiDataSiswa\\Home.cs",
               "ToolTip": "C:\\Users\\Erika\\Documents\\Erik\\Code\\GitHub\\github-2\\kelas-xi-rpl\\semester-1\\tugas-pak-isa\\kelas\\09-09-2026\\AplikasiDataSiswa\\AplikasiDataSiswa\\Home.cs",
               "RelativeToolTip": "AplikasiDataSiswa\\Home.cs",
-              "ViewState": "AgIAAHoAAAAAAAAAAAAcwHEAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAJsAAAAAAAAAAAAIwLcAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-10T20:53:50.512Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-10T20:53:50.512Z"
             }
           ]
         }

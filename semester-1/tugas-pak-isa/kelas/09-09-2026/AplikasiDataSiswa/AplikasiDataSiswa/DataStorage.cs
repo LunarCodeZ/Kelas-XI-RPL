@@ -6,9 +6,19 @@ namespace AplikasiDataSiswa
 {
     class DataStorage
     {
-        // ----------------
-        // |   Identitas  |
-        // ----------------
+        /*
+        --------------
+        |   Public   |
+        --------------
+        */
+        public const int NAMA_LENGKAP_COLUMN = 12;
+        public const int ALAMAT_COLUMN = 6;
+
+        /*
+        -----------------
+        |   Identitas   |
+        -----------------
+        */
 
         // data siswa
         public static string nisnTemplate = "000000000"; // 9 digit
@@ -56,5 +66,58 @@ namespace AplikasiDataSiswa
         public static List<char> daftarAkreditasiSekolah = new List<char>();
         public static List<int> daftarIndeksSekolah = new List<int>();
         public static List<string> daftarTanggalSekolah = new List<string>();
+
+
+
+        /*
+        ---------------
+        |   Absensi   |
+        ---------------
+        */
+        // januari
+        public static int namaLengkapJanuariColumn = NAMA_LENGKAP_COLUMN;
+        public static int alamatAbsensiJanuariColumn = ALAMAT_COLUMN;
+        public static int jumlahAbsenJanuari = 0;
+
+        public static List<string> daftarNisnAbsensiJanuari = new List<string>();
+        public static List<string> daftarNamaLengkapAbsensiJanuari = new List<string>();
+        public static List<int> daftarAbsensiHadirJanuari = new List<int>();
+        public static List<int> daftarAbsensiSakitJanuari = new List<int>();
+        public static List<int> daftarAbsensiIzinJanuari = new List<int>();
+        public static List<int> daftarAbsensiAlfaJanuari = new List<int>();
+        public static List<string> daftarAlamatAbsensiJanuari = new List<string>();
+
+        // februari
+        public static int jumlahAbsenFebruari = 0;
+
+        // maret
+        public static int jumlahAbsenMaret = 0;
+
+        // april
+        public static int jumlahAbsenApril = 0;
+
+        // mei
+        public static int jumlahAbsenMei = 0;
+
+        // juni
+        public static int jumlahAbsenJuni = 0;
+
+        // juli
+        public static int jumlahAbsenJuli = 0;
+
+        // agustus
+        public static int jumlahAbsenAgustus = 0;
+
+        // september
+        public static int jumlahAbsenSeptember = 0;
+
+        // oktober
+        public static int jumlahAbsenOktober = 0;
+
+        // november
+        public static int jumlahAbsenNovember = 0;
+
+        // desember
+        public static int jumlahAbsenDesember = 0;
     }
 }
