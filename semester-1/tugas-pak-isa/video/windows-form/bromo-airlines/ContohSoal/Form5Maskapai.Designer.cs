@@ -57,14 +57,14 @@
             this.label9 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.dataGridMaskapai = new System.Windows.Forms.DataGridView();
-            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.crewCount = new System.Windows.Forms.NumericUpDown();
+            this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Perusahaan = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.JumlahKru = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Deskripsi = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewButtonColumn1 = new System.Windows.Forms.DataGridViewButtonColumn();
-            this.dataGridViewButtonColumn2 = new System.Windows.Forms.DataGridViewButtonColumn();
-            this.crewCount = new System.Windows.Forms.NumericUpDown();
+            this.hapus = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.edit = new System.Windows.Forms.DataGridViewButtonColumn();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
@@ -416,13 +416,13 @@
             // 
             this.dataGridMaskapai.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridMaskapai.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn1,
+            this.ID,
             this.dataGridViewTextBoxColumn2,
             this.Perusahaan,
             this.JumlahKru,
             this.Deskripsi,
-            this.dataGridViewButtonColumn1,
-            this.dataGridViewButtonColumn2});
+            this.hapus,
+            this.edit});
             this.dataGridMaskapai.Location = new System.Drawing.Point(387, 213);
             this.dataGridMaskapai.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dataGridMaskapai.Name = "dataGridMaskapai";
@@ -431,13 +431,27 @@
             this.dataGridMaskapai.TabIndex = 28;
             this.dataGridMaskapai.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridMaskapai_CellClick);
             // 
-            // dataGridViewTextBoxColumn1
+            // crewCount
             // 
-            this.dataGridViewTextBoxColumn1.DataPropertyName = "ID";
-            this.dataGridViewTextBoxColumn1.HeaderText = "ID";
-            this.dataGridViewTextBoxColumn1.MinimumWidth = 8;
-            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
-            this.dataGridViewTextBoxColumn1.Width = 150;
+            this.crewCount.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.crewCount.Location = new System.Drawing.Point(511, 625);
+            this.crewCount.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.crewCount.Maximum = new decimal(new int[] {
+            1410065408,
+            2,
+            0,
+            0});
+            this.crewCount.Name = "crewCount";
+            this.crewCount.Size = new System.Drawing.Size(264, 34);
+            this.crewCount.TabIndex = 34;
+            // 
+            // ID
+            // 
+            this.ID.DataPropertyName = "ID";
+            this.ID.HeaderText = "ID";
+            this.ID.MinimumWidth = 8;
+            this.ID.Name = "ID";
+            this.ID.Width = 150;
             // 
             // dataGridViewTextBoxColumn2
             // 
@@ -471,37 +485,23 @@
             this.Deskripsi.Name = "Deskripsi";
             this.Deskripsi.Width = 150;
             // 
-            // dataGridViewButtonColumn1
+            // hapus
             // 
-            this.dataGridViewButtonColumn1.HeaderText = "";
-            this.dataGridViewButtonColumn1.MinimumWidth = 8;
-            this.dataGridViewButtonColumn1.Name = "dataGridViewButtonColumn1";
-            this.dataGridViewButtonColumn1.Text = "Hapus";
-            this.dataGridViewButtonColumn1.UseColumnTextForButtonValue = true;
-            this.dataGridViewButtonColumn1.Width = 150;
+            this.hapus.HeaderText = "";
+            this.hapus.MinimumWidth = 8;
+            this.hapus.Name = "hapus";
+            this.hapus.Text = "Hapus";
+            this.hapus.UseColumnTextForButtonValue = true;
+            this.hapus.Width = 150;
             // 
-            // dataGridViewButtonColumn2
+            // edit
             // 
-            this.dataGridViewButtonColumn2.HeaderText = "";
-            this.dataGridViewButtonColumn2.MinimumWidth = 8;
-            this.dataGridViewButtonColumn2.Name = "dataGridViewButtonColumn2";
-            this.dataGridViewButtonColumn2.Text = "Edit";
-            this.dataGridViewButtonColumn2.UseColumnTextForButtonValue = true;
-            this.dataGridViewButtonColumn2.Width = 150;
-            // 
-            // crewCount
-            // 
-            this.crewCount.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.crewCount.Location = new System.Drawing.Point(511, 625);
-            this.crewCount.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.crewCount.Maximum = new decimal(new int[] {
-            1410065408,
-            2,
-            0,
-            0});
-            this.crewCount.Name = "crewCount";
-            this.crewCount.Size = new System.Drawing.Size(264, 34);
-            this.crewCount.TabIndex = 34;
+            this.edit.HeaderText = "";
+            this.edit.MinimumWidth = 8;
+            this.edit.Name = "edit";
+            this.edit.Text = "Edit";
+            this.edit.UseColumnTextForButtonValue = true;
+            this.edit.Width = 150;
             // 
             // Form5Maskapai
             // 
@@ -577,13 +577,13 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView dataGridMaskapai;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
+        private System.Windows.Forms.NumericUpDown crewCount;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ID;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Perusahaan;
         private System.Windows.Forms.DataGridViewTextBoxColumn JumlahKru;
         private System.Windows.Forms.DataGridViewTextBoxColumn Deskripsi;
-        private System.Windows.Forms.DataGridViewButtonColumn dataGridViewButtonColumn1;
-        private System.Windows.Forms.DataGridViewButtonColumn dataGridViewButtonColumn2;
-        private System.Windows.Forms.NumericUpDown crewCount;
+        private System.Windows.Forms.DataGridViewButtonColumn hapus;
+        private System.Windows.Forms.DataGridViewButtonColumn edit;
     }
 }

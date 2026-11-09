@@ -56,17 +56,6 @@
             this.label9 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.dataGridJadwal = new System.Windows.Forms.DataGridView();
-            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.KodePenerbangan = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.BandaraKeberangkatan = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.BandaraTujuan = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Maskapai = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Tanggal = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Durasi = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.HargaPerTiket = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.WaktuKeberangkatan = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewButtonColumn1 = new System.Windows.Forms.DataGridViewButtonColumn();
-            this.dataGridViewButtonColumn2 = new System.Windows.Forms.DataGridViewButtonColumn();
             this.departureBox = new System.Windows.Forms.ComboBox();
             this.destinationBox = new System.Windows.Forms.ComboBox();
             this.departureTime = new System.Windows.Forms.DateTimePicker();
@@ -77,6 +66,17 @@
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
+            this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.KodePenerbangan = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.BandaraKeberangkatan = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.BandaraTujuan = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Maskapai = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Tanggal = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Durasi = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.HargaPerTiket = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.WaktuKeberangkatan = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.edit = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.hapus = new System.Windows.Forms.DataGridViewButtonColumn();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
@@ -420,7 +420,7 @@
             // 
             this.dataGridJadwal.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridJadwal.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn1,
+            this.ID,
             this.KodePenerbangan,
             this.BandaraKeberangkatan,
             this.BandaraTujuan,
@@ -429,8 +429,8 @@
             this.Durasi,
             this.HargaPerTiket,
             this.WaktuKeberangkatan,
-            this.dataGridViewButtonColumn1,
-            this.dataGridViewButtonColumn2});
+            this.edit,
+            this.hapus});
             this.dataGridJadwal.Location = new System.Drawing.Point(387, 213);
             this.dataGridJadwal.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dataGridJadwal.Name = "dataGridJadwal";
@@ -438,96 +438,6 @@
             this.dataGridJadwal.Size = new System.Drawing.Size(944, 282);
             this.dataGridJadwal.TabIndex = 31;
             this.dataGridJadwal.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridJadwal_CellClick);
-            // 
-            // dataGridViewTextBoxColumn1
-            // 
-            this.dataGridViewTextBoxColumn1.DataPropertyName = "ID";
-            this.dataGridViewTextBoxColumn1.HeaderText = "ID";
-            this.dataGridViewTextBoxColumn1.MinimumWidth = 8;
-            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
-            this.dataGridViewTextBoxColumn1.Width = 150;
-            // 
-            // KodePenerbangan
-            // 
-            this.KodePenerbangan.DataPropertyName = "KodePenerbangan";
-            this.KodePenerbangan.HeaderText = "Kode Penerbangan";
-            this.KodePenerbangan.MinimumWidth = 8;
-            this.KodePenerbangan.Name = "KodePenerbangan";
-            this.KodePenerbangan.Width = 150;
-            // 
-            // BandaraKeberangkatan
-            // 
-            this.BandaraKeberangkatan.DataPropertyName = "BandaraAsal";
-            this.BandaraKeberangkatan.HeaderText = "Keberangkatan";
-            this.BandaraKeberangkatan.MinimumWidth = 8;
-            this.BandaraKeberangkatan.Name = "BandaraKeberangkatan";
-            this.BandaraKeberangkatan.Width = 150;
-            // 
-            // BandaraTujuan
-            // 
-            this.BandaraTujuan.DataPropertyName = "BandaraTujuan";
-            this.BandaraTujuan.HeaderText = "Tujuan";
-            this.BandaraTujuan.MinimumWidth = 8;
-            this.BandaraTujuan.Name = "BandaraTujuan";
-            this.BandaraTujuan.Width = 150;
-            // 
-            // Maskapai
-            // 
-            this.Maskapai.DataPropertyName = "Maskapai";
-            this.Maskapai.HeaderText = "Maskapai";
-            this.Maskapai.MinimumWidth = 8;
-            this.Maskapai.Name = "Maskapai";
-            this.Maskapai.Width = 150;
-            // 
-            // Tanggal
-            // 
-            this.Tanggal.DataPropertyName = "TanggalKeberangkatan";
-            this.Tanggal.HeaderText = "Tanggal Keberangkatan";
-            this.Tanggal.MinimumWidth = 8;
-            this.Tanggal.Name = "Tanggal";
-            this.Tanggal.Width = 150;
-            // 
-            // Durasi
-            // 
-            this.Durasi.DataPropertyName = "DurasiPenerbangan";
-            this.Durasi.HeaderText = "Durasi Penerbangan";
-            this.Durasi.MinimumWidth = 8;
-            this.Durasi.Name = "Durasi";
-            this.Durasi.Width = 150;
-            // 
-            // HargaPerTiket
-            // 
-            this.HargaPerTiket.DataPropertyName = "HargaPerTiket";
-            this.HargaPerTiket.HeaderText = "HargaPerTiket";
-            this.HargaPerTiket.MinimumWidth = 8;
-            this.HargaPerTiket.Name = "HargaPerTiket";
-            this.HargaPerTiket.Width = 150;
-            // 
-            // WaktuKeberangkatan
-            // 
-            this.WaktuKeberangkatan.DataPropertyName = "WaktuKeberangkatan";
-            this.WaktuKeberangkatan.HeaderText = "Waktu Keberangkatan";
-            this.WaktuKeberangkatan.MinimumWidth = 8;
-            this.WaktuKeberangkatan.Name = "WaktuKeberangkatan";
-            this.WaktuKeberangkatan.Width = 150;
-            // 
-            // dataGridViewButtonColumn1
-            // 
-            this.dataGridViewButtonColumn1.HeaderText = "";
-            this.dataGridViewButtonColumn1.MinimumWidth = 8;
-            this.dataGridViewButtonColumn1.Name = "dataGridViewButtonColumn1";
-            this.dataGridViewButtonColumn1.Text = "Edit";
-            this.dataGridViewButtonColumn1.UseColumnTextForButtonValue = true;
-            this.dataGridViewButtonColumn1.Width = 150;
-            // 
-            // dataGridViewButtonColumn2
-            // 
-            this.dataGridViewButtonColumn2.HeaderText = "";
-            this.dataGridViewButtonColumn2.MinimumWidth = 8;
-            this.dataGridViewButtonColumn2.Name = "dataGridViewButtonColumn2";
-            this.dataGridViewButtonColumn2.Text = "Hapus";
-            this.dataGridViewButtonColumn2.UseColumnTextForButtonValue = true;
-            this.dataGridViewButtonColumn2.Width = 150;
             // 
             // departureBox
             // 
@@ -639,6 +549,96 @@
             this.label17.TabIndex = 15;
             this.label17.Text = "Harga per Tiket";
             // 
+            // ID
+            // 
+            this.ID.DataPropertyName = "ID";
+            this.ID.HeaderText = "ID";
+            this.ID.MinimumWidth = 8;
+            this.ID.Name = "ID";
+            this.ID.Width = 150;
+            // 
+            // KodePenerbangan
+            // 
+            this.KodePenerbangan.DataPropertyName = "KodePenerbangan";
+            this.KodePenerbangan.HeaderText = "Kode Penerbangan";
+            this.KodePenerbangan.MinimumWidth = 8;
+            this.KodePenerbangan.Name = "KodePenerbangan";
+            this.KodePenerbangan.Width = 150;
+            // 
+            // BandaraKeberangkatan
+            // 
+            this.BandaraKeberangkatan.DataPropertyName = "BandaraAsal";
+            this.BandaraKeberangkatan.HeaderText = "Keberangkatan";
+            this.BandaraKeberangkatan.MinimumWidth = 8;
+            this.BandaraKeberangkatan.Name = "BandaraKeberangkatan";
+            this.BandaraKeberangkatan.Width = 150;
+            // 
+            // BandaraTujuan
+            // 
+            this.BandaraTujuan.DataPropertyName = "BandaraTujuan";
+            this.BandaraTujuan.HeaderText = "Tujuan";
+            this.BandaraTujuan.MinimumWidth = 8;
+            this.BandaraTujuan.Name = "BandaraTujuan";
+            this.BandaraTujuan.Width = 150;
+            // 
+            // Maskapai
+            // 
+            this.Maskapai.DataPropertyName = "Maskapai";
+            this.Maskapai.HeaderText = "Maskapai";
+            this.Maskapai.MinimumWidth = 8;
+            this.Maskapai.Name = "Maskapai";
+            this.Maskapai.Width = 150;
+            // 
+            // Tanggal
+            // 
+            this.Tanggal.DataPropertyName = "TanggalKeberangkatan";
+            this.Tanggal.HeaderText = "Tanggal Keberangkatan";
+            this.Tanggal.MinimumWidth = 8;
+            this.Tanggal.Name = "Tanggal";
+            this.Tanggal.Width = 150;
+            // 
+            // Durasi
+            // 
+            this.Durasi.DataPropertyName = "DurasiPenerbangan";
+            this.Durasi.HeaderText = "Durasi Penerbangan";
+            this.Durasi.MinimumWidth = 8;
+            this.Durasi.Name = "Durasi";
+            this.Durasi.Width = 150;
+            // 
+            // HargaPerTiket
+            // 
+            this.HargaPerTiket.DataPropertyName = "HargaPerTiket";
+            this.HargaPerTiket.HeaderText = "HargaPerTiket";
+            this.HargaPerTiket.MinimumWidth = 8;
+            this.HargaPerTiket.Name = "HargaPerTiket";
+            this.HargaPerTiket.Width = 150;
+            // 
+            // WaktuKeberangkatan
+            // 
+            this.WaktuKeberangkatan.DataPropertyName = "WaktuKeberangkatan";
+            this.WaktuKeberangkatan.HeaderText = "Waktu Keberangkatan";
+            this.WaktuKeberangkatan.MinimumWidth = 8;
+            this.WaktuKeberangkatan.Name = "WaktuKeberangkatan";
+            this.WaktuKeberangkatan.Width = 150;
+            // 
+            // edit
+            // 
+            this.edit.HeaderText = "";
+            this.edit.MinimumWidth = 8;
+            this.edit.Name = "edit";
+            this.edit.Text = "Edit";
+            this.edit.UseColumnTextForButtonValue = true;
+            this.edit.Width = 150;
+            // 
+            // hapus
+            // 
+            this.hapus.HeaderText = "";
+            this.hapus.MinimumWidth = 8;
+            this.hapus.Name = "hapus";
+            this.hapus.Text = "Hapus";
+            this.hapus.UseColumnTextForButtonValue = true;
+            this.hapus.Width = 150;
+            // 
             // Form6JadwalPenerbangan
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -720,17 +720,6 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView dataGridJadwal;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn KodePenerbangan;
-        private System.Windows.Forms.DataGridViewTextBoxColumn BandaraKeberangkatan;
-        private System.Windows.Forms.DataGridViewTextBoxColumn BandaraTujuan;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Maskapai;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Tanggal;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Durasi;
-        private System.Windows.Forms.DataGridViewTextBoxColumn HargaPerTiket;
-        private System.Windows.Forms.DataGridViewTextBoxColumn WaktuKeberangkatan;
-        private System.Windows.Forms.DataGridViewButtonColumn dataGridViewButtonColumn1;
-        private System.Windows.Forms.DataGridViewButtonColumn dataGridViewButtonColumn2;
         private System.Windows.Forms.ComboBox departureBox;
         private System.Windows.Forms.ComboBox destinationBox;
         private System.Windows.Forms.DateTimePicker departureTime;
@@ -741,5 +730,16 @@
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ID;
+        private System.Windows.Forms.DataGridViewTextBoxColumn KodePenerbangan;
+        private System.Windows.Forms.DataGridViewTextBoxColumn BandaraKeberangkatan;
+        private System.Windows.Forms.DataGridViewTextBoxColumn BandaraTujuan;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Maskapai;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Tanggal;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Durasi;
+        private System.Windows.Forms.DataGridViewTextBoxColumn HargaPerTiket;
+        private System.Windows.Forms.DataGridViewTextBoxColumn WaktuKeberangkatan;
+        private System.Windows.Forms.DataGridViewButtonColumn edit;
+        private System.Windows.Forms.DataGridViewButtonColumn hapus;
     }
 }
